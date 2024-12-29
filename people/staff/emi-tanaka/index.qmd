@@ -1,0 +1,8 @@
+---
+name: Emi Tanaka
+email: emi.tanaka@anu.edu.au
+position: BDSI Deputy Director
+web: https://emitanaka.org/
+image: emi-photo.png
+bluesky: emitanaka.org
+---

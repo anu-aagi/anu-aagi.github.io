@@ -1,0 +1,47 @@
+project:
+  type: website
+
+website:
+  title: "ANU AAGI"
+  announcement: 
+    content: "**Job alert** - 3 postdoctoral or research fellow positions available. Apply by 19th January 2025 23:55 AEDT. See more details [here](/news/posts/2024-12-19/)." 
+    position: below-navbar 
+    type: primary
+    icon: megaphone-fill
+  #cookie-consent: true
+  open-graph: true
+  favicon: images/favicon.png
+  site-url: https://anu-bdsi.github.io
+  repo-url: https://github.com/anu-bdsi/anu-bdsi.github.io
+  issue-url: https://github.com/anu-bdsi/anu-bdsi.github.io/issues
+  repo-actions: [edit, source, issue]
+  page-footer: |
+   ![](/images/logo-footer.png){height="1em"} Biological Data Science Institute {{< fa solid dna >}}
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+        icon: house-fill
+      - text: Team
+        icon: people-fill
+        menu:
+          - text: People
+            href: people/index.qmd
+          - text: Onboarding
+            href:  onboarding/index.qmd
+      - href: about/index.qmd
+        text: About
+        icon: info-circle-fill
+      - href: contact/index.qmd
+        text: Contact
+        icon: envelope-fill
+    right:
+      - icon: github
+        href: https://github.com/anu-aagi
+format:
+  html:
+    theme: cosmo
+    title-block-banner: true
+
+
+

@@ -1,0 +1,16 @@
+<% for (const item of items) { %>
+
+
+<div class="contact-box" <%= metadataAttrs(item) %>>
+
+<h3><%= item.contact %></h3>
+<%= item.name %>
+<% if (item.email) { %>
+<i class="fas fa-envelope"></i> <%= item.email %>
+<% } %>
+
+
+</div>
+
+
+<% } %>

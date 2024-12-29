@@ -1,0 +1,55 @@
+
+:::{.list .grid .quarto-listing-cols-3}
+
+```{=html}
+
+<% for (const item of items) { %>
+
+<div class="profile-box" <%= metadataAttrs(item) %>>
+<% if (item.image) { %>
+<% if (item.rpweb) { %><a href="<%= item.rpweb %>"><% } %>
+<center>
+<% if (item.web) { %><a href="<%= item.web %>"><% } else { %><a href="<%= item.path %>"><% } %>
+<img class="profile-photo" src="<%= item.image %>"></a>
+</center>
+<% if (item.rpweb) { %></a><% } %>
+<% } else { %>
+<center>
+<% if (item.web) { %><a href="<%= item.web %>"><% } else { %><a href="<%= item.path %>"><% } %>
+<img class="profile-photo" src="/people/no-pic.jpg"></a>
+</center>
+<% } %>
+<div>
+<center>
+<b><%= item.name %></b>
+<p><%= item.position %></p>
+<% if (item['supervisor-primary']) { %>
+<p><i>Primary supervisor: <%= item['supervisor-primary'] %></i></p>
+<% } %>
+<% if (item['supervisor-associates']) { %>
+<p>Associate supervisors: <%= item['supervisor-associates'] %></p>
+<% } %>
+<p>
+<% if (item.rpweb) { %>
+<a href="<%= item.rpweb %>"><i class="fas fa-paperclip"></i></a>
+<% } %>
+<% if (item.email) { %>
+<a href="mailto:<%= item.email %>"><i class="fas fa-envelope"></i></a>
+<% } %>
+<% if (item.github) { %>
+<a href="https://github.com/<%= item.github %>"><i class="fab fa-github"></i></a>
+<% } %>
+<% if (item.mastodon) { %>
+<a href="<%= item.mastodon %>"><i class="fab fa-mastodon"></i></a>
+<% } %>
+<% if (item.bluesky) { %>
+<a href="https://bsky.app/profile/<%= item.bluesky %>"><i class="fab fa-twitter"></i></a>
+<% } %>
+</p>
+</center>
+</div>
+</div>
+<% } %>
+
+```
+:::

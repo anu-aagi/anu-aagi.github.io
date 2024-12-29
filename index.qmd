@@ -1,0 +1,34 @@
+---
+title: "Analytics for the Australian Grains Industry"
+subtitle: "Australian National University"
+listing:
+  - id: news
+    contents: news/posts/
+format: 
+  html:
+    css: /assets/styles.css
+---
+
+We are affiliated with [ANU Biological Data Science Institute](https://bdsi.anu.edu.au/). 
+
+
+:::{.list .grid .quarto-listing-cols-3 .hover-gold-tint}
+
+
+[People](/people/)
+
+[About](/about/)
+
+[Contact](/contact/)
+
+:::
+
+
+<br>
+
+## News
+
+::: {#news}
+
+
+:::

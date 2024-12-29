@@ -1,0 +1,45 @@
+---
+title: Onboarding
+toc: true
+---
+
+## Welcome to the Team!
+
+We are primarily located and affiliated with the [ANU Biological Data Science Institute](https://bdsi.anu.edu.au/), as such there are a number of shared resources. 
+
+The team uses the following shared resources:
+
+- **anu-bdsi GitHub organisation** for public team resources (BDSI team only)
+- **anu-aagi GitHub organisation** for public team resources (AAGI team only)
+- **Sharepoint site** for private team resources (staff only)
+- **Microsoft teams** for casual chats (any ANU staff)
+- **Microsoft group** for group emails  (staff only)
+
+## Principles
+
+We advocate for **_open science_**, i.e. share your code and data when and where it is reasonable to do so. The complete analysis code by default should be open (not "available by request" bullcrap) unless there is a good reason not to. Of course, some data may have sensitive information then you should not share this publicly and certainly should not be done without the permission of the data collector. In this instance, we encourage you to generate synthetic data so your code can be run on the synthetic data. Where the reason for not sharing data is due to having a competitive advantage, then we suggest to pre-define an embargo period.  
+
+
+
+## How to get added
+
+- **Send your GitHub username** to _Emi Tanaka_ for GitHub organisation.
+- **Send your ANU email address** to _Jo Bayley_ or _Emi Tanaka_ to be added for Sharepoint, Microsoft teams, and Microsoft group.
+
+## Early careers 
+
+- Join [**NECTAR**](https://nectar.anu.edu.au/), the network for early-career university workers at ANU.
+
+
+## Meetings
+
+
+
+| Meeting | When |  Description | 
+| -----------| -------- | ---------------|
+| BDSI External Forum* | Once a month | 1-1.5 hour meeting open externally  |
+| BDSI Internal Forum* | Three times a month | 1.5 hour internal meeting   |
+| RSFAS Statistics Seminar | Usually on Thu 11am | 1 hour
+| ACT Branch of the Statistical Society of Australia | Last Tuesday of the month | |
+
+

@@ -1,0 +1,27 @@
+---
+title: "{{< fa solid users >}} Meet the team"
+listing:
+  - id: staff
+    categories: unnumbered
+    contents:
+      - "staff/eric-stone/"
+      - "staff/emi-tanaka/"
+      - "staff/alan-welsh/"
+      - "staff/francis-hui/"
+      - "staff/"
+    template: person.ejs
+    sort: false
+format:
+  html:
+    css: people.css
+page-layout: full
+comments: false
+---
+
+## Staff
+
+:::{#staff}
+:::
+
+## External collaborators
+

@@ -1,0 +1,13 @@
+---
+title: Contact
+---
+
+## Email
+
+Dr Emi Tanaka <i class="fas fa-envelope"></i> emi.tanaka@anu.edu.au
+
+## Location
+
+The administrative home of BDSI and its staff is located in Building #46 - Robertson.
+
+<div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;"><div id="embed-ded-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=r+n+robsertson+canberra&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="googlemaps-made" href="https://kbj9qpmy.com/bp" id="authmaps-data">Internet Provider</a><style>#embed-ded-map-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}</style></div>

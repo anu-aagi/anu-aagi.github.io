@@ -1,0 +1,7 @@
+---
+name: Eric Stone
+email: eric.stone@anu.edu.au
+position: BDSI Director
+rpweb: https://researchportalplus.anu.edu.au/en/persons/eric-stone
+image: 138A0234_small.jpeg
+---

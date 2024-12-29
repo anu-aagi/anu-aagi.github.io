@@ -1,0 +1,29 @@
+color:
+  palette:
+    anu-gold-tint: "#F5EDDE"
+    anu-gold: "#BE830E"
+  background: white
+  foreground: black
+  primary: anu-gold
+  secondary: "#707073"
+  tertiary: "#C2C2C4"
+  success: green
+  info: teal
+  warning: orange
+  danger: burgundy
+  light: white
+  dark: "#404041"
+
+logo: 
+  small: images/logo-small.png
+  medium: images/logo-medium.png
+  large: images/logo-large.png
+
+typography:
+  fonts:
+    - family: Jura
+      source: google
+    - family: Roboto
+      source: google
+  base: Roboto
+  headings: Jura

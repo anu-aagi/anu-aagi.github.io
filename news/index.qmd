@@ -1,0 +1,12 @@
+---
+title: News & Events
+listing:
+  - id: news
+    contents: 
+     - items/
+---
+
+::: {#news}
+
+
+:::

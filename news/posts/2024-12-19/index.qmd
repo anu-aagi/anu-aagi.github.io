@@ -1,0 +1,19 @@
+---
+title: "Job alert 📢 Seeking 3 postdocs"
+description: | 
+  3 postdocs
+date: 2024-12-19
+---
+
+We are looking for 3 postdoctoral or research fellows with experience in statistics, data science, machine learning, bioinformatics, quantitative biology, or closely related fields. Candidates must possess strong scientific programming skills, demonstrated experience working with real data, and a substantial commitment to reproducible and transparent workflows. 
+
+The three postdocs will be part of our institute working on the "Analytics for the Australian Grains Industry" project each working on one of the following topics:
+
+- Statistical design and modelling,
+- Bioinformatics and molecular phenotyping, or
+- Machine learning and image analytics.
+
+The job application closes on **Jan 19 2025 23:55 AEDT**. The term of employment is up to 3 years (up to 31st December 2027).
+
+
+For more details see [here](https://jobs.anu.edu.au/jobs/postdoctoral-research-fellow-canberra-act-act-australia-4c7186e6-2928-4330-9242-1d84211e0947).
