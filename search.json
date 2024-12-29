@@ -1,0 +1,128 @@
+[
+  {
+    "objectID": "onboarding/index.html",
+    "href": "onboarding/index.html",
+    "title": "Onboarding",
+    "section": "",
+    "text": "We are primarily located and affiliated with the ANU Biological Data Science Institute, as such there are a number of shared resources.\nThe team uses the following shared resources:\n\nanu-bdsi GitHub organisation for public team resources (BDSI team only)\nanu-aagi GitHub organisation for public team resources (AAGI team only)\nSharepoint site for private team resources (staff only)\nMicrosoft teams for casual chats (any ANU staff)\nMicrosoft group for group emails (staff only)"
+  },
+  {
+    "objectID": "onboarding/index.html#welcome-to-the-team",
+    "href": "onboarding/index.html#welcome-to-the-team",
+    "title": "Onboarding",
+    "section": "",
+    "text": "We are primarily located and affiliated with the ANU Biological Data Science Institute, as such there are a number of shared resources.\nThe team uses the following shared resources:\n\nanu-bdsi GitHub organisation for public team resources (BDSI team only)\nanu-aagi GitHub organisation for public team resources (AAGI team only)\nSharepoint site for private team resources (staff only)\nMicrosoft teams for casual chats (any ANU staff)\nMicrosoft group for group emails (staff only)"
+  },
+  {
+    "objectID": "onboarding/index.html#principles",
+    "href": "onboarding/index.html#principles",
+    "title": "Onboarding",
+    "section": "Principles",
+    "text": "Principles\nWe advocate for open science, i.e. share your code and data when and where it is reasonable to do so. The complete analysis code by default should be open (not “available by request” bullcrap) unless there is a good reason not to. Of course, some data may have sensitive information then you should not share this publicly and certainly should not be done without the permission of the data collector. In this instance, we encourage you to generate synthetic data so your code can be run on the synthetic data. Where the reason for not sharing data is due to having a competitive advantage, then we suggest to pre-define an embargo period."
+  },
+  {
+    "objectID": "onboarding/index.html#how-to-get-added",
+    "href": "onboarding/index.html#how-to-get-added",
+    "title": "Onboarding",
+    "section": "How to get added",
+    "text": "How to get added\n\nSend your GitHub username to Emi Tanaka for GitHub organisation.\nSend your ANU email address to Jo Bayley or Emi Tanaka to be added for Sharepoint, Microsoft teams, and Microsoft group."
+  },
+  {
+    "objectID": "onboarding/index.html#early-careers",
+    "href": "onboarding/index.html#early-careers",
+    "title": "Onboarding",
+    "section": "Early careers",
+    "text": "Early careers\n\nJoin NECTAR, the network for early-career university workers at ANU."
+  },
+  {
+    "objectID": "onboarding/index.html#meetings",
+    "href": "onboarding/index.html#meetings",
+    "title": "Onboarding",
+    "section": "Meetings",
+    "text": "Meetings\n\n\n\n\n\n\n\n\nMeeting\nWhen\nDescription\n\n\n\n\nBDSI External Forum*\nOnce a month\n1-1.5 hour meeting open externally\n\n\nBDSI Internal Forum*\nThree times a month\n1.5 hour internal meeting\n\n\nRSFAS Statistics Seminar\nUsually on Thu 11am\n1 hour\n\n\nACT Branch of the Statistical Society of Australia\nLast Tuesday of the month"
+  },
+  {
+    "objectID": "people/index.html",
+    "href": "people/index.html",
+    "title": " Meet the team",
+    "section": "",
+    "text": "Eric Stone\nBDSI Director\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEmi Tanaka\nBDSI Deputy Director\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlan Welsh\nE.J. Hannan Professor\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFrancis Hui\nAssociate Professor\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRecruiting\nPostdoc in Statistics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRecruiting\nPostdoc in Bioinformatics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRecruiting\nPostdoc in Analytics\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people/index.html#staff",
+    "href": "people/index.html#staff",
+    "title": " Meet the team",
+    "section": "",
+    "text": "Eric Stone\nBDSI Director\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEmi Tanaka\nBDSI Deputy Director\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlan Welsh\nE.J. Hannan Professor\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFrancis Hui\nAssociate Professor\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRecruiting\nPostdoc in Statistics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRecruiting\nPostdoc in Bioinformatics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRecruiting\nPostdoc in Analytics\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people/index.html#external-collaborators",
+    "href": "people/index.html#external-collaborators",
+    "title": " Meet the team",
+    "section": "External collaborators",
+    "text": "External collaborators"
+  },
+  {
+    "objectID": "news/posts/2024-12-19/index.html",
+    "href": "news/posts/2024-12-19/index.html",
+    "title": "Job alert 📢 Seeking 3 postdocs",
+    "section": "",
+    "text": "We are looking for 3 postdoctoral or research fellows with experience in statistics, data science, machine learning, bioinformatics, quantitative biology, or closely related fields. Candidates must possess strong scientific programming skills, demonstrated experience working with real data, and a substantial commitment to reproducible and transparent workflows.\nThe three postdocs will be part of our institute working on the “Analytics for the Australian Grains Industry” project each working on one of the following topics:\n\nStatistical design and modelling,\nBioinformatics and molecular phenotyping, or\nMachine learning and image analytics.\n\nThe job application closes on Jan 19 2025 23:55 AEDT. The term of employment is up to 3 years (up to 31st December 2027).\nFor more details see here."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Analytics for the Australian Grains Industry",
+    "section": "",
+    "text": "We are affiliated with ANU Biological Data Science Institute."
+  },
+  {
+    "objectID": "index.html#news",
+    "href": "index.html#news",
+    "title": "Analytics for the Australian Grains Industry",
+    "section": "News",
+    "text": "News\n\n\n\n\n\n\n\n\n\n\nJob alert 📢 Seeking 3 postdocs\n\n\n\n\n\n3 postdocs \n\n\n\n\n\nDec 19, 2024\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "contact/index.html",
+    "href": "contact/index.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Dr Emi Tanaka  emi.tanaka@anu.edu.au"
+  },
+  {
+    "objectID": "contact/index.html#email",
+    "href": "contact/index.html#email",
+    "title": "Contact",
+    "section": "",
+    "text": "Dr Emi Tanaka  emi.tanaka@anu.edu.au"
+  },
+  {
+    "objectID": "contact/index.html#location",
+    "href": "contact/index.html#location",
+    "title": "Contact",
+    "section": "Location",
+    "text": "Location\nThe administrative home of BDSI and its staff is located in Building #46 - Robertson.\n\n\n\n\n\nInternet Provider"
+  },
+  {
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "About",
+    "section": "",
+    "text": "ANU-AAGI is a research collaboration with the Strategic Partners of the Analytics for the Australian Grains Industry (AAGI) funded by the Grains Research Development Coorperation (GRDC). ANU officially joined AAGI at the end of 2024."
+  },
+  {
+    "objectID": "blog/welcome/index.html",
+    "href": "blog/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "news/index.html",
+    "href": "news/index.html",
+    "title": "News & Events",
+    "section": "",
+    "text": "No matching items"
+  }
+]

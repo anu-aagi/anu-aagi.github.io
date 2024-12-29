@@ -1,0 +1,24 @@
+[
+  {
+    "listing": "/people/index.html",
+    "items": [
+      "/people/staff/eric-stone/index.html",
+      "/people/staff/emi-tanaka/index.html",
+      "/people/staff/alan-welsh/index.html",
+      "/people/staff/francis-hui/index.html",
+      "/people/staff/postdoc1/index.html",
+      "/people/staff/postdoc3/index.html",
+      "/people/staff/postdoc2/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/news/posts/2024-12-19/index.html"
+    ]
+  },
+  {
+    "listing": "/news/index.html",
+    "items": []
+  }
+]
