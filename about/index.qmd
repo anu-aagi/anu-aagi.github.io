@@ -3,3 +3,5 @@ title: About
 ---
 
 ANU-AAGI is a research collaboration with the Strategic Partners of the Analytics for the Australian Grains Industry (AAGI) funded by the Grains Research Development Coorperation (GRDC). ANU officially joined AAGI at the end of 2024. 
+
+If you are part of ANU and would like to be involved (now or in future), please reach out to the [ANU lead](/contact/). We are interested in consolidating analytical expertise to solve agricultural problems across ANU.

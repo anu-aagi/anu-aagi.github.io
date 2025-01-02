@@ -4,7 +4,7 @@ title: Contact
 
 ## Email
 
-Dr Emi Tanaka <i class="fas fa-envelope"></i> emi.tanaka@anu.edu.au
+Dr Emi Tanaka (ANU lead) <i class="fas fa-envelope"></i> emi.tanaka@anu.edu.au
 
 ## Location
 
