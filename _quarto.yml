@@ -3,11 +3,11 @@ project:
 
 website:
   title: "ANU AAGI"
-  announcement: 
-    content: "**Job alert** - 3 postdoctoral or research fellow positions available. Apply by 19th January 2025 23:55 AEDT. See more details [here](/news/posts/2024-12-19/)." 
-    position: below-navbar 
-    type: primary
-    icon: megaphone-fill
+  # announcement: 
+  #   content: "**Job alert** - 3 postdoctoral or research fellow positions available. Apply by 19th January 2025 23:55 AEDT. See more details [here](/news/posts/2024-12-19/)." 
+  #   position: below-navbar 
+  #   type: primary
+  #   icon: megaphone-fill
   #cookie-consent: true
   open-graph: true
   favicon: images/favicon.png
