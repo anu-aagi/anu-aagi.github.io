@@ -1,0 +1,6 @@
+---
+name: Patrick Weihao Li
+position: Postdoctoral Fellow
+email: patrick.li@anu.edu.au
+image: thumbnail_patrick-li.jpg
+---

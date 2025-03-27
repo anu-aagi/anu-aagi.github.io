@@ -1,0 +1,5 @@
+---
+name: Yidi Deng
+position: Postdoctoral Fellow
+image: profile.jpg
+---
