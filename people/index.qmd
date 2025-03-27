@@ -25,3 +25,7 @@ comments: false
 
 ## External collaborators
 
+- Scott Chapman (UQ)
+- Mark Gibberd (Curtin)
+- Adam Sparks (Curtin)
+- Julian Taylor (Adelaide)
