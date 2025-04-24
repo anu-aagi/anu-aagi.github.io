@@ -29,6 +29,7 @@ website:
             href: people/index.qmd
           - text: Onboarding
             href:  onboarding/index.qmd
+      - href: events/index.qmd
       - href: about/index.qmd
         text: About
         icon: info-circle-fill

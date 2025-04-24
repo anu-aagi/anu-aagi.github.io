@@ -20,9 +20,11 @@ We are primarily located and affiliated with the [ANU Biological Data Science In
 The team uses the following shared resources:
 
 - **anu-bdsi GitHub organisation** for public team resources (BDSI team only)
-- **anu-aagi GitHub organisation** for public team resources (AAGI team only)
-- **Sharepoint site** for private team resources (BDSI staff only)
-- **Microsoft teams** for casual chats (any ANU staff)
+- **anu-aagi GitHub organisation** for public team resources (ANU-AAGI team only)
+- **Sharepoint site** for private BDSI resources (BDSI staff only)
+- **Sharepoint site** for private ANU-AAGI resources (ANU-AAGI staff only)
+- ~~**Microsoft teams** for casual chats (any ANU staff)~~ (defunct, replaced by Zulip)
+- **Zulip chat** for project and casual chats (ANU-AAGI team + Guests)
 - **Microsoft group** for group emails  (BDSI staff only)
 
 ## How to get added
