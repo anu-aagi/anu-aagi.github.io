@@ -1,5 +1,15 @@
 [
   {
+    "listing": "/news/index.html",
+    "items": []
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/news/posts/2024-12-19/index.html"
+    ]
+  },
+  {
     "listing": "/people/index.html",
     "items": [
       "/people/staff/eric-stone/index.html",
@@ -10,15 +20,5 @@
       "/people/staff/fonti-kar/index.html",
       "/people/staff/patrick-li/index.html"
     ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/news/posts/2024-12-19/index.html"
-    ]
-  },
-  {
-    "listing": "/news/index.html",
-    "items": []
   }
 ]
