@@ -1,7 +1,5 @@
 ---
 title: "Job alert 📢 Seeking 3 postdocs"
-description: | 
-  3 postdocs
 date: 2024-12-19
 ---
 

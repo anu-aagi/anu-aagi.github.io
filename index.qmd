@@ -4,6 +4,8 @@ subtitle: "Australian National University"
 listing:
   - id: news
     contents: news/posts/
+    sort:
+    - "date desc"
 format: 
   html:
     css: /assets/styles.css
