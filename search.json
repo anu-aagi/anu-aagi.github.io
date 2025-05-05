@@ -56,39 +56,11 @@
     "text": "No matching items"
   },
   {
-    "objectID": "blog/welcome/index.html",
-    "href": "blog/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "news/posts/2025-05-05/index.html",
+    "href": "news/posts/2025-05-05/index.html",
+    "title": "Welcome to Patrick!",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "about/index.html",
-    "href": "about/index.html",
-    "title": "About",
-    "section": "",
-    "text": "ANU-AAGI is a research collaboration with the Strategic Partners of the Analytics for the Australian Grains Industry (AAGI) funded by the Grains Research Development Coorperation (GRDC). ANU officially joined AAGI at the end of 2024.\nIf you are part of ANU and would like to be involved (now or in future), please reach out to the ANU lead. We are interested in consolidating analytical expertise to solve agricultural problems across ANU."
-  },
-  {
-    "objectID": "contact/index.html",
-    "href": "contact/index.html",
-    "title": "Contact",
-    "section": "",
-    "text": "Dr Emi Tanaka (ANU lead)  emi.tanaka@anu.edu.au"
-  },
-  {
-    "objectID": "contact/index.html#email",
-    "href": "contact/index.html#email",
-    "title": "Contact",
-    "section": "",
-    "text": "Dr Emi Tanaka (ANU lead)  emi.tanaka@anu.edu.au"
-  },
-  {
-    "objectID": "contact/index.html#location",
-    "href": "contact/index.html#location",
-    "title": "Contact",
-    "section": "Location",
-    "text": "Location\nThe administrative home of BDSI and its staff is located in Building #46 - Robertson.\n\n\n\n\n\nInternet Provider"
+    "text": "We are excited to welcome Patrick Li, who will be working in the area of image analytics, machine learning and phenotyping methods.\nPatrick, who moved from Melbourne, has developed computer vision models for automating reading of residual plots, implemented as the R package autovi. He has also developed an algorithm to cluster satellite hot spot spatio-temporal data, implemented in the R package spotoroo, which he has won a student software award for."
   },
   {
     "objectID": "index.html",
@@ -102,7 +74,49 @@
     "href": "index.html#news",
     "title": "Analytics for the Australian Grains Industry",
     "section": "News",
-    "text": "News\n\n\n\n\n\n\n\n\n\n\nJob alert 📢 Seeking 3 postdocs\n\n\n\n\n\n3 postdocs \n\n\n\n\n\nDec 19, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "News\n\n\n\n\n\n\n\n\n\n\nWelcome to Patrick!\n\n\n\n\n\n\n\n\n\n\n\nMay 5, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nJob alert 📢 Seeking 3 postdocs\n\n\n\n\n\n\n\n\n\n\n\nDec 19, 2024\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "contact/index.html",
+    "href": "contact/index.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Dr Emi Tanaka (ANU-AAGI lead)  emi.tanaka@anu.edu.au"
+  },
+  {
+    "objectID": "contact/index.html#email",
+    "href": "contact/index.html#email",
+    "title": "Contact",
+    "section": "",
+    "text": "Dr Emi Tanaka (ANU-AAGI lead)  emi.tanaka@anu.edu.au"
+  },
+  {
+    "objectID": "contact/index.html#zulip",
+    "href": "contact/index.html#zulip",
+    "title": "Contact",
+    "section": "Zulip",
+    "text": "Zulip\nThe ANU-AAGI team communicate via Zulip (an open-source chat tool). If you are part of ANU and would like to join this Zulip channel, please contact the ANU-AAGI lead. We are interested in consolidating analytical expertise to solve agricultural problems across ANU.\nhttps://anu-aagi.zulipchat.com/"
+  },
+  {
+    "objectID": "contact/index.html#location",
+    "href": "contact/index.html#location",
+    "title": "Contact",
+    "section": "Location",
+    "text": "Location\nThe administrative home of BDSI and its staff is located in Building #46 - Robertson.\n\n\n\n\n\nInternet Provider"
+  },
+  {
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "About",
+    "section": "",
+    "text": "ANU-AAGI is a research collaboration with the Strategic Partners of the Analytics for the Australian Grains Industry (AAGI) funded by the Grains Research Development Coorperation (GRDC). ANU officially joined AAGI at the end of 2024.\nIf you are part of ANU and would like to be involved (now or in future), please reach out to the ANU lead. We are interested in consolidating analytical expertise to solve agricultural problems across ANU."
+  },
+  {
+    "objectID": "blog/welcome/index.html",
+    "href": "blog/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
     "objectID": "news/posts/2024-12-19/index.html",
@@ -137,6 +151,6 @@
     "href": "events/index.html",
     "title": "Events",
     "section": "",
-    "text": "Our public event chats:\n\nhttps://anu-aagi.zulipchat.com/\n\nMore to come soon."
+    "text": "Coming soon."
   }
 ]
