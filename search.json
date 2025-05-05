@@ -60,7 +60,7 @@
     "href": "news/posts/2025-05-05/index.html",
     "title": "Welcome to Patrick!",
     "section": "",
-    "text": "We are excited to welcome Patrick Li, who will be working in the area of image analytics, machine learning and phenotyping methods.\nPatrick, who moved from Melbourne, has developed computer vision models for automating reading of residual plots, implemented as the R package autovi. He has also developed an algorithm to cluster satellite hot spot spatio-temporal data, implemented in the R package spotoroo, which he has won a student software award for."
+    "text": "We are excited to welcome Patrick Li, who will be working in the area of image analytics, machine learning and phenotyping methods.\nPatrick, who moved from Melbourne, has developed computer vision models for automating reading of residual plots, implemented as the R package autovi. He also created the spotoroo R package, an algorithm designed to cluster satellite hot spot spatio-temporal data. His work on spotoroo earned him a software award."
   },
   {
     "objectID": "index.html",
