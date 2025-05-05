@@ -4,7 +4,14 @@ title: Contact
 
 ## Email
 
-Dr Emi Tanaka (ANU lead) <i class="fas fa-envelope"></i> emi.tanaka@anu.edu.au
+Dr Emi Tanaka (ANU-AAGI lead) <i class="fas fa-envelope"></i> emi.tanaka@anu.edu.au
+
+## Zulip
+
+The ANU-AAGI team communicate via Zulip (an open-source chat tool). If you are part of ANU and would like to join this Zulip channel, please contact the ANU-AAGI lead. We are interested in consolidating analytical expertise to solve agricultural problems across ANU.
+
+<https://anu-aagi.zulipchat.com/>
+
 
 ## Location
 
