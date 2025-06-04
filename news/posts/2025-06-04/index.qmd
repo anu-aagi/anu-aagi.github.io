@@ -1,0 +1,11 @@
+---
+title: "Welcome to Fonti!"
+date: 2025-06-04
+---
+
+We're excited to have [Fonti Kar](https://fontikar.github.io/) join the team, working in the area of experimental design and statistical modelling for comparative agricultural experiments.
+
+Fonti has a wealth of experience in R programming and developing tools that aid research for others, in addition to her experience in evolutionary ecology where she quantified the heritability of traits from her lizard breeding experiment. She's the lead developer for the `austraits` R package, which won a [software award](https://www.ecolsoc.org.au/news/awards/inaugural-winner-of-the-ardc-award-for-new-software-developer-announced/). We're looking forward to working with her and the new perspectives and ideas she will bring to the project!
+
+
+![](fonti-starts.jpg)
