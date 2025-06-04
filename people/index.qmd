@@ -4,7 +4,6 @@ listing:
   - id: staff
     categories: unnumbered
     contents:
-      - "staff/eric-stone/"
       - "staff/emi-tanaka/"
       - "staff/alan-welsh/"
       - "staff/francis-hui/"
