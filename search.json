@@ -49,32 +49,53 @@
     "text": "Meetings\nIn addition to one-to-one meetings and small group meetings, the team has a number of regular meetings. You are expected to attend the meetings marked with a *. Other meetings are something that you may want to attend if you are interested.\n\n\n\n\n\n\n\n\nMeeting\nWhen\nDescription\n\n\n\n\nAAGI Meeting*\nOnce a week\n1-1.5 hour meeting AAGI members only\n\n\nBDSI External/Internal Forum*\nOnce a week\n1-1.5 hour meeting\n\n\nRSFAS Statistics Seminar\nUsually on Thu 11am\n1 hour seminar, followed by catered lunch\n\n\nACT Branch of the Statistical Society of Australia\nLast Tuesday of the month"
   },
   {
-    "objectID": "news/index.html",
-    "href": "news/index.html",
-    "title": "News & Events",
+    "objectID": "people/index.html",
+    "href": "people/index.html",
+    "title": " Meet the team",
     "section": "",
-    "text": "No matching items"
+    "text": "Emi Tanaka\nANU-AAGI lead\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlan Welsh\nE.J. Hannan Professor\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFrancis Hui\nAssociate Professor\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYidi Deng\nPostdoctoral Fellow\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFonti Kar\nResearch Fellow\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPatrick Weihao Li\nPostdoctoral Fellow\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "news/posts/2025-06-04/index.html",
-    "href": "news/posts/2025-06-04/index.html",
-    "title": "Welcome to Fonti!",
+    "objectID": "people/index.html#staff",
+    "href": "people/index.html#staff",
+    "title": " Meet the team",
     "section": "",
-    "text": "We’re excited to have Fonti Kar join the team, working in the area of experimental design and statistical modelling for comparative agricultural experiments.\nFonti has a wealth of experience in R programming and developing tools that aid research for others, in addition to her experience in evolutionary ecology where she quantified the heritability of traits from her lizard breeding experiment. She’s the lead developer for the austraits R package, which won a software award. We’re looking forward to working with her and the new perspectives and ideas she will bring to the project!"
+    "text": "Emi Tanaka\nANU-AAGI lead\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlan Welsh\nE.J. Hannan Professor\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFrancis Hui\nAssociate Professor\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYidi Deng\nPostdoctoral Fellow\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFonti Kar\nResearch Fellow\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPatrick Weihao Li\nPostdoctoral Fellow\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "blog/welcome/index.html",
-    "href": "blog/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "objectID": "people/index.html#external-collaborators",
+    "href": "people/index.html#external-collaborators",
+    "title": " Meet the team",
+    "section": "External collaborators",
+    "text": "External collaborators\n\nScott Chapman (UQ)\nMark Gibberd (Curtin)\nAdam Sparks (Curtin)\nJulian Taylor (Adelaide)"
   },
   {
-    "objectID": "about/index.html",
-    "href": "about/index.html",
-    "title": "About",
+    "objectID": "news/posts/2024-12-19/index.html",
+    "href": "news/posts/2024-12-19/index.html",
+    "title": "Job alert 📢 Seeking 3 postdocs",
     "section": "",
-    "text": "ANU-AAGI is a research collaboration with the Strategic Partners of the Analytics for the Australian Grains Industry (AAGI) funded by the Grains Research Development Coorperation (GRDC). ANU officially joined AAGI at the end of 2024.\nIf you are part of ANU and would like to be involved (now or in future), please reach out to the ANU lead. We are interested in consolidating analytical expertise to solve agricultural problems across ANU."
+    "text": "We are looking for 3 postdoctoral or research fellows with experience in statistics, data science, machine learning, bioinformatics, quantitative biology, or closely related fields. Candidates must possess strong scientific programming skills, demonstrated experience working with real data, and a substantial commitment to reproducible and transparent workflows.\nThe three postdocs will be part of our institute working on the “Analytics for the Australian Grains Industry” project each working on one of the following topics:\n\nStatistical design and modelling,\nBioinformatics and molecular phenotyping, or\nMachine learning and image analytics.\n\nThe job application closes on Jan 19 2025 23:55 AEDT. The term of employment is up to 3 years (up to 31st December 2027).\nFor more details see here."
+  },
+  {
+    "objectID": "news/posts/2025-05-05/index.html",
+    "href": "news/posts/2025-05-05/index.html",
+    "title": "Welcome to Patrick!",
+    "section": "",
+    "text": "We are excited to welcome Patrick Li, who will be working in the area of image analytics, machine learning and phenotyping methods.\nPatrick, who moved from Melbourne, has developed computer vision models for automating reading of residual plots, implemented as the R package autovi. He also created the spotoroo R package, an algorithm designed to cluster satellite hot spot spatio-temporal data. His work on spotoroo earned him a software award."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Analytics for the Australian Grains Industry",
+    "section": "",
+    "text": "We are affiliated with ANU Biological Data Science Institute."
+  },
+  {
+    "objectID": "index.html#news",
+    "href": "index.html#news",
+    "title": "Analytics for the Australian Grains Industry",
+    "section": "News",
+    "text": "News\n\n\n\n\n\n\n\n\n\n\nWelcome to Fonti!\n\n\n\n\n\n\n\n\n\n\n\nJun 4, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to Patrick!\n\n\n\n\n\n\n\n\n\n\n\nMay 5, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nJob alert 📢 Seeking 3 postdocs\n\n\n\n\n\n\n\n\n\n\n\nDec 19, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "contact/index.html",
@@ -105,53 +126,32 @@
     "text": "Location\nThe administrative home of BDSI and its staff is located in Building #46 - Robertson.\n\n\n\n\n\nInternet Provider"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Analytics for the Australian Grains Industry",
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "About",
     "section": "",
-    "text": "We are affiliated with ANU Biological Data Science Institute."
+    "text": "ANU-AAGI is a research collaboration with the Strategic Partners of the Analytics for the Australian Grains Industry (AAGI) funded by the Grains Research Development Coorperation (GRDC). ANU officially joined AAGI at the end of 2024.\nIf you are part of ANU and would like to be involved (now or in future), please reach out to the ANU lead. We are interested in consolidating analytical expertise to solve agricultural problems across ANU."
   },
   {
-    "objectID": "index.html#news",
-    "href": "index.html#news",
-    "title": "Analytics for the Australian Grains Industry",
-    "section": "News",
-    "text": "News\n\n\n\n\n\n\n\n\n\n\nWelcome to Fonti!\n\n\n\n\n\n\n\n\n\n\n\nJun 4, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to Patrick!\n\n\n\n\n\n\n\n\n\n\n\nMay 5, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nJob alert 📢 Seeking 3 postdocs\n\n\n\n\n\n\n\n\n\n\n\nDec 19, 2024\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "news/posts/2025-05-05/index.html",
-    "href": "news/posts/2025-05-05/index.html",
-    "title": "Welcome to Patrick!",
+    "objectID": "blog/welcome/index.html",
+    "href": "blog/welcome/index.html",
+    "title": "Welcome To My Blog",
     "section": "",
-    "text": "We are excited to welcome Patrick Li, who will be working in the area of image analytics, machine learning and phenotyping methods.\nPatrick, who moved from Melbourne, has developed computer vision models for automating reading of residual plots, implemented as the R package autovi. He also created the spotoroo R package, an algorithm designed to cluster satellite hot spot spatio-temporal data. His work on spotoroo earned him a software award."
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
-    "objectID": "news/posts/2024-12-19/index.html",
-    "href": "news/posts/2024-12-19/index.html",
-    "title": "Job alert 📢 Seeking 3 postdocs",
+    "objectID": "news/posts/2025-06-04/index.html",
+    "href": "news/posts/2025-06-04/index.html",
+    "title": "Welcome to Fonti!",
     "section": "",
-    "text": "We are looking for 3 postdoctoral or research fellows with experience in statistics, data science, machine learning, bioinformatics, quantitative biology, or closely related fields. Candidates must possess strong scientific programming skills, demonstrated experience working with real data, and a substantial commitment to reproducible and transparent workflows.\nThe three postdocs will be part of our institute working on the “Analytics for the Australian Grains Industry” project each working on one of the following topics:\n\nStatistical design and modelling,\nBioinformatics and molecular phenotyping, or\nMachine learning and image analytics.\n\nThe job application closes on Jan 19 2025 23:55 AEDT. The term of employment is up to 3 years (up to 31st December 2027).\nFor more details see here."
+    "text": "We’re excited to have Fonti Kar join the team, working in the area of experimental design and statistical modelling for comparative agricultural experiments.\nFonti has a wealth of experience in R programming and developing tools that aid research for others, in addition to her experience in evolutionary ecology where she quantified the heritability of traits from her lizard breeding experiment. She’s the lead developer for the austraits R package, which won a software award. We’re looking forward to working with her and the new perspectives and ideas she will bring to the project!"
   },
   {
-    "objectID": "people/index.html",
-    "href": "people/index.html",
-    "title": " Meet the team",
+    "objectID": "news/index.html",
+    "href": "news/index.html",
+    "title": "News & Events",
     "section": "",
-    "text": "Eric Stone\nBDSI Director\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEmi Tanaka\nBDSI Deputy Director\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlan Welsh\nE.J. Hannan Professor\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFrancis Hui\nAssociate Professor\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYidi Deng\nPostdoctoral Fellow\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFonti Kar\nResearch Fellow\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPatrick Weihao Li\nPostdoctoral Fellow\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "people/index.html#staff",
-    "href": "people/index.html#staff",
-    "title": " Meet the team",
-    "section": "",
-    "text": "Eric Stone\nBDSI Director\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEmi Tanaka\nBDSI Deputy Director\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlan Welsh\nE.J. Hannan Professor\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFrancis Hui\nAssociate Professor\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYidi Deng\nPostdoctoral Fellow\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFonti Kar\nResearch Fellow\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPatrick Weihao Li\nPostdoctoral Fellow\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "people/index.html#external-collaborators",
-    "href": "people/index.html#external-collaborators",
-    "title": " Meet the team",
-    "section": "External collaborators",
-    "text": "External collaborators\n\nScott Chapman (UQ)\nMark Gibberd (Curtin)\nAdam Sparks (Curtin)\nJulian Taylor (Adelaide)"
+    "text": "No matching items"
   },
   {
     "objectID": "events/index.html",
