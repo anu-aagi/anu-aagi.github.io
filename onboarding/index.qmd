@@ -1,72 +1,9 @@
 ---
 title: Onboarding
-toc: true
 ---
 
 ## Welcome to the Team!
 
-```{r}
-#| include: false
-anu_lead <- "Emi Tanaka"
-anu_lead_email <- "emi.tanaka@anu.edu.au"
-github_owner <- "Emi Tanaka"
-bdsi_admin <- "Jo Bayley"
-meeting_link <- "https://outlook.office.com/bookwithme/user/04af622942a94518ade3670b6fddf520@anu.edu.au?anonymous&ep=plink"
-```
 
-
-We are primarily located and affiliated with the [ANU Biological Data Science Institute](https://bdsi.anu.edu.au/) (BDSI), as such there are a number of shared resources between ANU AAGI and BDSI. 
-
-The team uses the following shared resources:
-
-- **anu-bdsi GitHub organisation** for public team resources (BDSI team only)
-- **anu-aagi GitHub organisation** for public team resources (ANU-AAGI team only)
-- **Sharepoint site** for private BDSI resources (BDSI staff only)
-- **Sharepoint site** for private ANU-AAGI resources (ANU-AAGI staff only)
-- ~~**Microsoft teams** for casual chats (any ANU staff)~~ (defunct, replaced by Zulip)
-- **Zulip chat** for project and casual chats (ANU-AAGI team + Guests)
-- **Microsoft group** for group emails  (BDSI staff only)
-
-## How to get added
-
-- Send your GitHub username to _`r anu_lead`_ for GitHub organisation.
-- Send your ANU email address to _Jo Bayley_ or _`r anu_lead`_ to be added for Sharepoint, Microsoft teams, and Microsoft group.
-
-## Expectations
-
-All ANU staff are required to follow the ANU policies and guidelines, including but not limited to [ANU Code of Conduct](https://policies.anu.edu.au/ppl/document/ANUP_000388) and [ANU Responsible Conduct of Research policy](https://policies.anu.edu.au/ppl/document/ANUP_007402). Those who practice statistics should also follow the [ASA's Ethical Guidelines for Statistical Practice](https://www.amstat.org/docs/default-source/amstat-documents/ethicalguidelines.pdf?Status=Master&sfvrsn=bdeeafdd_6/).
-
-Specific to the AAGI team, we expect team members to:
-
-- practice open science (share your code and data openly) when and where reasonable to do so,
-- document and track activities using features and repos on anu-aagi GitHub organisation for projects,
-- give and receive constructive feedback, and
-- acknowledge all contributors.
-
-
-
-## Early careers 
-
-- Join [**NECTAR**](https://nectar.anu.edu.au/), the network for early-career university workers at ANU.
-- [ANU Integrated AI network](https://ai.anu.edu.au/) may be of an interest. If you want to join the Team channel, ask _`r anu_lead`_ to add you.
-- You may occassionally want to check out [ANU Agrifood Innovation Institute](https://agrifood.anu.edu.au/news-events/news) and [ANU Statistics Research Group](https://rsfas.anu.edu.au/academic-areas/statistics) for news and events. The event notices are usually mailed to BDSI members. 
-
-
-## Conversations and dealing with conflicts
-
-_`r anu_lead`_, as the ANU-AAGI lead, is responsible for the team's operation and reporting. In general, if there any concerns, please feel free to talk to _`r anu_lead`_. You can find a time to meet with her [here](`r meeting_link`) or email her at `r anu_lead_email`. She is generally responsive and typically responds within 1-2 working day (if it takes longer than that, she may genuinely have missed/misplaced your email so just try again). If you feel uncomfortable talking to _`r anu_lead`_, you can talk to another faculty staff member (Emi's go-to person is Alan Welsh) or _Jo Bayley_, if they are available and willing.
-
-Naturally, with more people involved, conflicts are inevitable. Conflicts are not necessary bad (in fact, can be a source of innovation and creativity), but it's important to resolve it. We encourage you to talk to the person directly face-to-face (rather than having an emotionally charged email/text message exchanges) if you have a concern. If you feel uncomfortable doing so, you can talk to _`r anu_lead`_ to mediate the conversation. In general, focus on what you can control rather than things you can't.
-
-## Meetings
-
-In addition to one-to-one meetings and small group meetings, the team has a number of regular meetings. You are expected to attend the meetings marked with a *. Other meetings are something that you may want to attend if you are interested.
-
-| Meeting | When |  Description | 
-| -----------| -------- | ---------------|
-| AAGI Meeting* | Once a week | 1-1.5 hour meeting AAGI members only  |
-| BDSI External/Internal Forum* | Once a week | 1-1.5 hour meeting  |
-| RSFAS Statistics Seminar | Usually on Thu 11am | 1 hour seminar, followed by catered lunch
-| ACT Branch of the Statistical Society of Australia | Last Tuesday of the month | |
-
+This page has largely moved to an [internal sharepoint site](https://anu365.sharepoint.com/sites/anu-aagi/SitePages/Onboarding.aspx)
 

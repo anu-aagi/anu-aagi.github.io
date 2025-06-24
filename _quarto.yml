@@ -24,11 +24,7 @@ website:
         icon: house-fill
       - text: Team
         icon: people-fill
-        menu:
-          - text: People
-            href: people/index.qmd
-          - text: Onboarding
-            href:  onboarding/index.qmd
+        href: people/index.qmd
       - href: events/index.qmd
       - href: about/index.qmd
         text: About
