@@ -1,0 +1,18 @@
+---
+title: "Welcome to Yidi!"
+date: 2025-07-11
+---
+
+We're pleased to welcome the last of the 3 postdocs hired this year, Yidi Deng, to the team! Yidi will be working in the area of bioinformatics and integration of molecular phenotypes.
+
+Yidi has an impressive list of work from his PhD working in developing and applying statistical methods for single cell data integration analysis. His work from his PhD include:
+
+- Sincast - a computational framework to query scRNA-seq data (SIN) by projecting onto bulk reference atlases [<i class="fab fa-github"></i>](<https://github.com/meiosis97/Sincast)
+- StableMate - a variable selection for multi-environmental regression [<i class="fab fa-github"></i>](https://github.com/meiosis97/StableMate)
+- NeighbourNet - predict gene regulatory network for individual cells in single cell RNA-seq data [<i class="fab fa-github"></i>](https://github.com/meiosis97/NeighbourNet)
+- Application to human inner ear macrophage [<i class="fab fa-github"></i>](https://github.com/meiosis97/Inner-ear-macrophage)
+
+We are looking forward to learning more about his work and working with him 😄
+
+
+![](yidi.jpg)
