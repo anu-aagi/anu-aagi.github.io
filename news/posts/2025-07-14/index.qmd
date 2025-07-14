@@ -1,0 +1,39 @@
+---
+title: "ANU AAGI Training Sessions"
+date: 2025-07-14
+lightbox: true
+---
+
+Now that all three postdocs we hired have arrived, we sprinted with 4 training sessions in the past week. In our training sessions we covered contents like:
+
+- the analysis of a single field trial,
+- the analysis of a multi-environmental field trial,
+- workflow and tools for reporting (including how we structure our projects and name things!), and
+- linear mixed models.
+
+Thank you to [Fonti](https://fontikar.github.io/) for showcasing about project structure and tools for project management! A happy coincidence meant we got to celebrate Fonti's birthday with a cake in our last training session 😊
+
+::: {.columns}
+::: {.column width="50%" style="padding-right:10px;"}
+
+![Wheat cake! Keeping in the theme of grains research 🌾](IMG_8383.jpg){.lightbox}
+
+:::
+
+::: {.column width="50%"}
+
+![Huddling for group photo 📷](IMG_8401.JPG){.lightbox}
+
+![Yay! Happy birthday Fonti! 🥳](IMG_8384.jpg){.lightbox}
+
+:::
+:::
+
+
+And in case if you were wondering, we did do the training! Lots of great discussions and what a load of fun learning different perspectives.
+
+All our training materials is available [here](https://anu-aagi.github.io/education) and we look forward to developing and accumulating more materials for the community!
+
+![Screenshot from the first training session](present2.png){.lightbox}
+
+
