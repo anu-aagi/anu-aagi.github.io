@@ -26,6 +26,8 @@ website:
         icon: people-fill
         href: people/index.qmd
       - href: events/index.qmd
+      - href: https://anu-aagi.github.io/education
+        text: Education
       - href: about/index.qmd
         text: About
         icon: info-circle-fill
