@@ -49,18 +49,25 @@
     "text": "We’re pleased to welcome the last of the 3 postdocs hired this year, Yidi Deng, to the team! Yidi will be working in the area of bioinformatics and integration of molecular phenotypes.\nYidi has an impressive list of work from his PhD in developing and applying statistical methods for single cell data integration analysis. His work from his PhD include:\n\nSincast - a computational framework to query scRNA-seq data (SIN) by projecting onto bulk reference atlases \nStableMate - a variable selection for multi-environmental regression \nNeighbourNet - predict gene regulatory network for individual cells in single cell RNA-seq data \nApplication to human inner ear macrophage \n\nWe are looking forward to learning more about his work and working with him 😄"
   },
   {
-    "objectID": "blog/welcome/index.html",
-    "href": "blog/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "news/posts/2025-07-14/index.html",
+    "href": "news/posts/2025-07-14/index.html",
+    "title": "ANU AAGI Training Sessions",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "Now that all three postdocs we hired have arrived, we sprinted with 4 training sessions in the past week. In our training sessions we covered contents like:\n\nthe analysis of a single field trial,\nthe analysis of a multi-environmental field trial,\nworkflow and tools for reporting (including how we structure our projects and name things!), and\nlinear mixed models.\n\nThank you to Fonti for showcasing about project structure and tools for project management! A happy coincidence meant we got to celebrate Fonti’s birthday with a cake in our last training session 😊\n\n\n\n\n\nWheat cake! Keeping in the theme of grains research 🌾\n\n\n\n\n\n\nHuddling for group photo 📷\n\n\n\n\n\nYay! Happy birthday Fonti! 🥳\n\n\n\n\nAnd in case if you were wondering, we did do the training! Lots of great discussions and what a load of fun learning different perspectives.\nAll our training materials is available here and we look forward to developing and accumulating more materials for the community!\n\n\n\nScreenshot from the first training session"
   },
   {
-    "objectID": "about/index.html",
-    "href": "about/index.html",
-    "title": "About",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Analytics for the Australian Grains Industry",
     "section": "",
-    "text": "ANU-AAGI is a research collaboration with the Strategic Partners of the Analytics for the Australian Grains Industry (AAGI) funded by the Grains Research Development Coorperation (GRDC). ANU officially joined AAGI at the end of 2024.\nIf you are part of ANU and would like to be involved (now or in future), please reach out to the ANU lead. We are interested in consolidating analytical expertise to solve agricultural problems across ANU."
+    "text": "People\nAbout\nEducation\nContact"
+  },
+  {
+    "objectID": "index.html#news",
+    "href": "index.html#news",
+    "title": "Analytics for the Australian Grains Industry",
+    "section": "News",
+    "text": "News\n\n\n\n\n\n\n\n\n\n\nANU AAGI Training Sessions\n\n\n\n\n\n\n\n\n\n\n\nJul 14, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to Yidi!\n\n\n\n\n\n\n\n\n\n\n\nJul 11, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to Fonti!\n\n\n\n\n\n\n\n\n\n\n\nJun 4, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to Patrick!\n\n\n\n\n\n\n\n\n\n\n\nMay 5, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nJob alert 📢 Seeking 3 postdocs\n\n\n\n\n\n\n\n\n\n\n\nDec 19, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "contact/index.html",
@@ -91,18 +98,18 @@
     "text": "Location\nThe administrative home of BDSI and its staff is located in Building #46 - Robertson.\n\n\n\n\n\nInternet Provider"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Analytics for the Australian Grains Industry",
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "About",
     "section": "",
-    "text": "People\nAbout\nEducation\nContact"
+    "text": "ANU-AAGI is a research collaboration with the Strategic Partners of the Analytics for the Australian Grains Industry (AAGI) funded by the Grains Research Development Coorperation (GRDC). ANU officially joined AAGI at the end of 2024.\nIf you are part of ANU and would like to be involved (now or in future), please reach out to the ANU lead. We are interested in consolidating analytical expertise to solve agricultural problems across ANU."
   },
   {
-    "objectID": "index.html#news",
-    "href": "index.html#news",
-    "title": "Analytics for the Australian Grains Industry",
-    "section": "News",
-    "text": "News\n\n\n\n\n\n\n\n\n\n\nWelcome to Yidi!\n\n\n\n\n\n\n\n\n\n\n\nJul 11, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to Fonti!\n\n\n\n\n\n\n\n\n\n\n\nJun 4, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to Patrick!\n\n\n\n\n\n\n\n\n\n\n\nMay 5, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nJob alert 📢 Seeking 3 postdocs\n\n\n\n\n\n\n\n\n\n\n\nDec 19, 2024\n\n\n\n\n\n\nNo matching items"
+    "objectID": "blog/welcome/index.html",
+    "href": "blog/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
     "objectID": "news/posts/2025-05-05/index.html",
