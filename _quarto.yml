@@ -11,12 +11,12 @@ website:
   #cookie-consent: true
   open-graph: true
   favicon: images/favicon.png
-  site-url: https://anu-bdsi.github.io
-  repo-url: https://github.com/anu-bdsi/anu-bdsi.github.io
-  issue-url: https://github.com/anu-bdsi/anu-bdsi.github.io/issues
-  repo-actions: [edit, source, issue]
+  site-url: https://anu-aagi.github.io
+  repo-url: https://github.com/anu-bdsi/anu-aagi.github.io
+  issue-url: https://github.com/anu-bdsi/anu-aagi.github.io/issues
+  repo-actions: [issue]
   page-footer: |
-   ![](/images/logo-footer.png){height="1em"} Biological Data Science Institute {{< fa solid dna >}}
+   ![](/images/logo-footer.png){height="1em"} 
   navbar:
     left:
       - href: index.qmd
@@ -26,8 +26,10 @@ website:
         icon: people-fill
         href: people/index.qmd
       - href: events/index.qmd
+        icon: calendar-event-fill
       - href: https://anu-aagi.github.io/education
         text: Education
+        icon: pencil-fill
       - href: about/index.qmd
         text: About
         icon: info-circle-fill
