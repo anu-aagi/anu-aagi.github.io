@@ -1,6 +1,12 @@
 ---
 title: Events
+listing: 
+  - id: seminar
+    template: seminar.ejs
+    contents: seminar-list.yml
 ---
 
-Coming soon.
+::: {#seminar}
+
+:::
 

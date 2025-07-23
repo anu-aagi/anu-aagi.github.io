@@ -1,0 +1,18 @@
+```{=html}
+
+<% for (let talk of items) { %>
+<h3><%= talk.date %></h3>
+<b style="font-size:1.3em;"><%= talk.title %></b><br>
+<i style="font-size:1.3em;"><%= talk.speaker %></i>
+<details>
+<div style="border-left: 1px solid grey;padding-left: 10px;">
+<%= talk.abstract %><br><br>
+<b>Bio</b>
+<p><%= talk.bio %></p>
+</div>
+</details>
+
+
+<% } %>
+
+```
