@@ -23,5 +23,9 @@
   {
     "listing": "/news/index.html",
     "items": []
+  },
+  {
+    "listing": "/events/index.html",
+    "items": []
   }
 ]
