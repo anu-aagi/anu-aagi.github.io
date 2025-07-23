@@ -6,6 +6,12 @@ listing:
     contents: seminar-list.yml
 ---
 
+## ANU Biometrics Seminar Series
+
+The series is designed to foster knowledge exchange in the intersection of biology, statistics, and data science. We hope to use this as a regular platform for the ANU community to share their work, spark meaningful discussions and cultivate interdisciplinary collaborations.
+
+If you would like to receive notice about the seminar, please complete the short form [here](https://forms.office.com/Pages/ResponsePage.aspx?id=XHJ941yrJEaa5fBTPkhkN8f_OhednjZDplTOe4g095JUMVdBV1JDRTVBMU9NNzZKNVY0STFaUkVWSSQlQCN0PWcu).
+
 ::: {#seminar}
 
 :::
