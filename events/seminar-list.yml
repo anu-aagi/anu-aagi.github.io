@@ -1,6 +1,18 @@
+- date: 2025/08/15
+  time: 2pm
+  speaker: Zixiong Zhuang
+  affiliation: Australian National University
+  title: How will future climate change affect wheat yield and nutritional quality?
+  abstract: >
+   In the coming decades, climate change will continue to bring higher atmospheric CO2 concentrations which lead to warmer air temperatures. However, the combined effects of elevated CO₂ (eCO2) and elevated temperature (eT) on wheat grain yield and nutrition quality remain largely unknown. When tested separately, eCO2 increases wheat yield and decreases grain nutritional quality, whereas eT decreases yield, with unknown effects on grain quality. 
+
+   To better understand the combined treatment of eCO2 and eT on wheat performances under future climate conditions, this talk presents early insights into one of the largest experiments of its kind — testing 90 genetically diverse wheat lines under realistic climate conditions by the year 2100 (800 ppm CO2 and + 5°C). This talk presents preliminary results from the first year’s experiment. In this talk, both traditional biometrics and high-throughput phenotyping (HTP) traits are used to explain the variations in plant responses to future climate conditions. As such, providing early understanding about the underlying biological mechanisms contributing to variations in wheat yield and nutrition qualities that can be studied further in future experiments.
+  bio: >
+   Zixiong is a second-year PhD student at the Research School of Biology (RSB). He is supervised by Professor Danielle Way where he focuses on plant physiological responses to future climate change in Australian spring wheat lines. Zixiong completed his Master’s degree with Professor Justin Borevitz at the Australian National University. During Zixiong’s Master’s degrees, he discovered genomic structural variants using population-level long-read sequencing on wild Eucalyptus pangenomes. He joined the Way Lab in 2023, transitioning his focus from population genomics to ecophysiology and plant phenomics.
 - date: 2025/08/01
   time: 2pm
   speaker: Yidi Deng
+  affiliation: Australian National University
   title: Novel methods for analysing single cell gene expression data
   abstract: >
    This talk will introduce three novel methods we developed to address key 
