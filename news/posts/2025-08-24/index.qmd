@@ -1,0 +1,33 @@
+---
+title: 'Glasshouse wheat experiment tour'
+author: Emi Tanaka
+date: '2025-08-24'
+---
+
+On 15th August 2025, Zixiong Zhuang (a PhD student at Danielle Way's lab) presented to us about his glasshouse pre-breeding wheat experiment and its analysis from the first year data. His experiment is important in understanding how future production and nutrition of wheat would be like with the onset of climate change (increased temperature and increased CO<sub>2</sub>). Soon after this talk, we were priviledged to have a glasshouse tour to see his experiment.  
+
+::: {layout-ncol=2}
+
+![Photo credit: Zixiong Zhuang](pic-by-zixiong.jpg){.lightbox group="g1"}
+
+![](pic1.jpg){.lightbox group="g1"}
+
+![](pic2.jpg){.lightbox group="g1"}
+
+![](pic3.jpg){.lightbox group="g1"}
+
+
+:::
+
+
+ The future climate conditions tend to hasten the wheat growth. You can see this in the photos below.
+
+::: {layout-ncol=2}
+
+![Current climate condition](pic4.jpg){.lightbox group="g2"}
+
+![Future climate condition](pic5.jpg){.lightbox group="g2"}
+
+:::
+
+Thank you to Zixiong for the tour and looking forward to seeing more about this year's data!
