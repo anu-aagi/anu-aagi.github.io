@@ -1,0 +1,65 @@
+---
+title: 'Visiting the Lab of Biometry and Bioinformatics at the University of Tokyo'
+author: Emi Tanaka
+date: '2025-09-03'
+---
+
+I had the pleasure of visiting and presenting to the [Lab of Biometry and Bioinformatics](https://www.ut-biomet.org/home-english) at the Department of Agricultural and Environmental Biology, Graduate School of Agricultural and Life Science, University of Tokyo 🎌. Thank you to [Gota](http://morotalab.org/) for being a wonderful host and taking us (myself and Francis) to eat some delicious Japanese food 🍲 
+
+I also thoroughly enjoyed listening to the student presentations, which showcased 
+impressive research of analytical methods to draw insight from multiomics crop data. In particular, learning about the lab’s multiomics soybean dataset left me both inspired and a little envious—I would love the opportunity to analyse such a rich source of data myself! I was also impressed with [Hayato](https://sites.google.com/view/hayato-john-yoshioka/home?authuser=0), a soon to finish PhD student, who developed the [`rrda`](https://cran.r-project.org/web/packages/rrda/index.html) R package as part of his research. Thank you again to everyone in the lab for a warm welcome and stimulating scientific exchange.
+
+::: {layout-ncol=2}
+
+![Photo credit: UTokyo Lab of Biometry and Bioinformatics](utokyo-group1.jpg){.lightbox group="g1"}
+
+![Photo credit: UTokyo Lab of Biometry and Bioinformatics](utokyo-group2.jpg){.lightbox group="g1"}
+
+![Photo credit: Francis Hui](emi-presenting.JPG){.lightbox group="g1"}
+
+
+
+
+:::
+
+
+The food in Japan is incredibly delicious, and I’m amazed at how much more 
+affordable it is compared to Australia (often about half the price)! The quality of 
+vegetables and fruits on display in supermarkets is also outstanding. With so many 
+tempting options, I have to admit, I’m definitely indulging a bit too much!
+
+
+::: {layout-ncol=2}
+
+
+
+
+![Motsu nabe](motsu-nabe.jpg){.lightbox group="g2"}
+
+![Duck and shallot soba](soba.jpg){.lightbox group="g2"}
+
+
+
+![Shallots in Japanese supermarket are so big!](shallots.jpg){.lightbox group="g2"}
+
+
+
+
+
+
+:::
+
+It’s been seven years since my last visit to Japan, and experiencing small 
+moments like catching a glimpse of Tokyo Tower or stumbling upon a tiny roadside 
+jinja continually reminds me of the Japanese culture. I'm looking forward to visiting again and hopefully more regularly!
+
+
+::: {layout-ncol=2}
+
+
+![Tokyo tower up close!](tokyo-tower.jpg){.lightbox group="g3"}
+
+
+![Roadside mini jinja!](jinja.jpg){.lightbox group="g3"}
+
+:::
