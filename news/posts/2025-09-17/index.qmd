@@ -4,7 +4,7 @@ author: Yidi Deng
 date: '2025-09-17'
 ---
 
-On September 9th, Patrick and I，two statisticians who usually only see the data but not ever seeing how they are born，finally had the chance to visit a real field experiment at the [Boorowa Agricultural Research Station](https://www.csiro.au/en/about/locations/state-locations/nsw/boorowa) (BARS) of CSIRO. Many thanks to CSIRO for organizing the event and inviting our AAGI team (for free!). Both Patrick and I were thrilled before the visit. It felt like those school-organized spring excursions back in our high school days.
+On September 9th, Patrick and I, two statisticians who usually only see the data but not ever seeing how they are born, finally had the chance to visit a real field experiment at the [Boorowa Agricultural Research Station](https://www.csiro.au/en/about/locations/state-locations/nsw/boorowa) (BARS) of CSIRO. Many thanks to CSIRO for organizing the event and inviting our AAGI team (for free!). Both Patrick and I were thrilled before the visit. It felt like those school-organized spring excursions back in our high school days.
 
 We left the ANU campus in the morning for the one-hour drive to BARS. The views turned spectacular as we approached the station. It was the first time for me seeing such a massive canola field stretching into the horizon, absolutely stunning.
 
@@ -22,7 +22,7 @@ We were welcomed with talks from Georgie, Stuart, Susie, Aswin, John, Greg, and 
 
 ![Introduction by Georgie Martin](Georgie-Martin.jpg){.lightbox group="g2"}
 
-![BARS digital capabilities by Georgie Martin](Stuart-Brown.jpg){.lightbox group="g2"}
+![BARS digital capabilities by Stuart Brown](Stuart-Brown.jpg){.lightbox group="g2"}
 
 :::
 
