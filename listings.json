@@ -1,5 +1,18 @@
 [
   {
+    "listing": "/index.html",
+    "items": [
+      "/news/posts/2025-09-17/index.html",
+      "/news/posts/2025-09-03/index.html",
+      "/news/posts/2025-08-24/index.html",
+      "/news/posts/2025-07-14/index.html",
+      "/news/posts/2025-07-11/index.html",
+      "/news/posts/2025-06-04/index.html",
+      "/news/posts/2025-05-05/index.html",
+      "/news/posts/2024-12-19/index.html"
+    ]
+  },
+  {
     "listing": "/people/index.html",
     "items": [
       "/people/staff/emi-tanaka/index.html",
@@ -11,23 +24,11 @@
     ]
   },
   {
-    "listing": "/index.html",
-    "items": [
-      "/news/posts/2025-09-03/index.html",
-      "/news/posts/2025-08-24/index.html",
-      "/news/posts/2025-07-14/index.html",
-      "/news/posts/2025-07-11/index.html",
-      "/news/posts/2025-06-04/index.html",
-      "/news/posts/2025-05-05/index.html",
-      "/news/posts/2024-12-19/index.html"
-    ]
-  },
-  {
-    "listing": "/news/index.html",
+    "listing": "/events/index.html",
     "items": []
   },
   {
-    "listing": "/events/index.html",
+    "listing": "/news/index.html",
     "items": []
   }
 ]
