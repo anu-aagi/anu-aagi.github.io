@@ -36,9 +36,9 @@ We were welcomed with talks from Georgie, Stuart, Susie, Aswin, John, Greg, and 
 :::
 
 
-During the lunch break, Patrick, being much more outgoing than me, introduced himself to Susie and kindly introduced me as well. Susie explained some of the challenges in QTL analysis for this project. The blakcleg resistance trait in canola is extremely high. Environmental factors, treatments, genetics, and measurement error together only explain a small fraction of this variability. Even canola plants within the same plot can show vastly different resistance levels. It would be interesting to know why of course  (epigenetics, perhaps?).
+During the lunch break, Patrick, being much more outgoing than me, introduced himself to Susie and kindly introduced me as well. Susie explained some of the challenges in QTL analysis for this project. The blakcleg resistance trait in canola is extremely variable. Environmental factors, treatments, genetics, and measurement error together only explain a small fraction of this variability. Even plants within the same plot can show vastly different resistance levels. It would be interesting to know why of course  (epigenetics, perhaps?).
 
-We toured the farm facilities in the afternoon and saw equipment that most people never see in their lives: seed dryers, grain cleaners, and huge agricultural machinery like seeders, harvesters, and sprayers that usually only see in movies or video games. You really can’t imagine their size until you see them up close. The aim is to get on them once in these two years. 
+We toured the farm facilities in the afternoon and saw equipment that most people never see in their lives: seed dryers, grain cleaners, and huge agricultural machinery like seeders, harvesters, and sprayers that usually only see in movies or video games. You really can’t imagine their size until you see them up close. My aim is to get on them once in these two years. 
 
 ::: {layout="[[25,25,25,25],[50,50]]"}
 
@@ -56,7 +56,7 @@ We toured the farm facilities in the afternoon and saw equipment that most peopl
 
 :::
 
-We then visited several research trials. [Dr. John Kirkegaard](https://people.csiro.au/k/j/john-kirkegaard) showed us his long-term trial using old-school agronomic (no chemical, pure crop management). Faba beans are intercropped and rotated with canola, improving soil quality by fixing nitrogen. Susie took us to her canola plots, where we saw what diseased plants actually look like. Even the tiniest leaf lesion can be an entry point for the fungus. Finally, [Dr. Greg Rebetzke](https://people.csiro.au/r/g/greg-rebetzke) showed us his dwarf wheat trail, where they molecular interventing the gibberellic acid signaling pathway to promote dwarf wheat phenotypes that increase yield. Those plants are only 10–20 cm tall (normally they are aorund 1 meter).
+We then visited several research trials. [Dr. John Kirkegaard](https://people.csiro.au/k/j/john-kirkegaard) showed us his long-term trial using old-school agronomic (no chemical, pure crop management). Faba beans are intercropped and rotated with canola, improving soil quality by fixing nitrogen. Susie took us to her canola plots, where we saw what diseased plants actually look like. Even the tiniest leaf lesion can be an entry point for the fungus. Finally, [Dr. Greg Rebetzke](https://people.csiro.au/r/g/greg-rebetzke) showed us his dwarf wheat trail, where they molecular interventing the gibberellic acid signaling pathway to promote dwarf wheat phenotypes to increase yield. Those plants are only 10–20 cm tall (normally they are aorund 1 meter).
 
 ::: {layout="[[25,25,50]]"}
 
@@ -64,7 +64,7 @@ We then visited several research trials. [Dr. John Kirkegaard](https://people.cs
 
 ![Susie showing us infected canola](blackleg.jpg){.lightbox group="g5"}
 
-![Greg introducing drwaf wheat, but the cloud looks like a platypus](cloud.jpg){.lightbox group="g5"}
+![Greg introducing dwarf wheat, but the cloud looks like a platypus](cloud.jpg){.lightbox group="g5"}
 
 :::
 
