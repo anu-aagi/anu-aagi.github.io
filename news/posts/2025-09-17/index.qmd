@@ -1,0 +1,72 @@
+---
+title: 'Visiting Boorowa Agricultural Research Station of CSIRO'
+author: Yidi Deng
+date: '2025-09-17'
+---
+
+On September 9th, Patrick and I，two statisticians who usually only see the data but not ever seeing how they are born，finally had the chance to visit a real field experiment at the [Boorowa Agricultural Research Station](https://www.csiro.au/en/about/locations/state-locations/nsw/boorowa) (BARS) of CSIRO. Many thanks to CSIRO for organizing the event and inviting our AAGI team (for free!). Both Patrick and I were thrilled before the visit. It felt like those school-organized spring excursions back in our high school days.
+
+We left the ANU campus in the morning for the one-hour drive to BARS. The views turned spectacular as we approached the station. It was the first time for me seeing such a massive canola field stretching into the horizon, absolutely stunning.
+
+::: {layout="[[40, 22.5]]"}
+
+![A lot of canola](canola-skylinejpg.jpg){.lightbox group="g1"}
+
+![Hi~](me-and-patrick.jpg){.lightbox group="g1"}
+
+:::
+
+We were welcomed with talks from Georgie, Stuart, Susie, Aswin, John, Greg, and Allison, who introduced the research capabilities and ongoing projects at BARS. I was amazed at how modern agricultural research has become. The farm has a comprehensive sensor network, fully digitized data and research management, and even drones scanning fields to phenotype biomass.
+
+::: {layout-ncol=2}
+
+![Introduction by Georgie Martin](Georgie-Martin.jpg){.lightbox group="g2"}
+
+![BARS digital capabilities by Georgie Martin](Stuart-Brown.jpg){.lightbox group="g2"}
+
+:::
+
+
+[Dr. Susie Sprague](https://people.csiro.au/s/s/susan-sprague) presented her work on blackleg canola disease trials, which our AAGI team is also involved in. Patrick will be developing computer vision methods to identify diseased canola plants, while I will be working on sample size calculations for QTL analysis to identify loci associated with disease resistance. Canola is one of the major crops in the ACT, and blackleg is a severe fungal disease that evolves quickly, spreads rapidly, and easily develops fungicide resistance. Susie shared the story of a local farmer struggling with blackleg who turned to BARS for help. It's such a  boost of motivation for me of how research like this can directly impact people’s lives: glad I'm choosing the correct job haha.  
+
+::: {layout="[[-25,50,-25]]"}
+
+![Susie Sprague introducing blackleg disease](Blackleg-disease.jpg){.lightbox group="g3"}
+
+:::
+
+
+During the lunch break, Patrick, being much more outgoing than me, introduced himself to Susie and kindly introduced me as well. Susie explained some of the challenges in QTL analysis for this project. The blakcleg resistance trait in canola is extremely high. Environmental factors, treatments, genetics, and measurement error together only explain a small fraction of this variability. Even canola plants within the same plot can show vastly different resistance levels. It would be interesting to know why of course  (epigenetics, perhaps?).
+
+We toured the farm facilities in the afternoon and saw equipment that most people never see in their lives: seed dryers, grain cleaners, and huge agricultural machinery like seeders, harvesters, and sprayers that usually only see in movies or video games. You really can’t imagine their size until you see them up close. The aim is to get on them once in these two years. 
+
+::: {layout="[[25,25,25,25],[50,50]]"}
+
+![Drone for 3D scanning](drones.jpg){.lightbox group="g4"}
+
+![Soil and seed samples](sample.jpg){.lightbox group="g4"}
+
+![Seed dryer](dryer.jpg){.lightbox group="g4"}
+
+![Wheat thresher](filter.jpg){.lightbox group="g4"}
+
+![Harvester](harvester.jpg){.lightbox group="g4"}
+
+![Seeder](seeder.jpg){.lightbox group="g4"}
+
+:::
+
+We then visited several research trials. [Dr. John Kirkegaard](https://people.csiro.au/k/j/john-kirkegaard) showed us his long-term trial using old-school agronomic (no chemical, pure crop management). Faba beans are intercropped and rotated with canola, improving soil quality by fixing nitrogen. Susie took us to her canola plots, where we saw what diseased plants actually look like. Even the tiniest leaf lesion can be an entry point for the fungus. Finally, [Dr. Greg Rebetzke](https://people.csiro.au/r/g/greg-rebetzke) showed us his dwarf wheat trail, where they molecular interventing the gibberellic acid signaling pathway to promote dwarf wheat phenotypes that increase yield. Those plants are only 10–20 cm tall (normally they are aorund 1 meter).
+
+::: {layout="[[25,25,50]]"}
+
+![Intercropping faba beans with canola](intercrop.jpg){.lightbox group="g5"}
+
+![Susie showing us infected canola](blackleg.jpg){.lightbox group="g5"}
+
+![Greg introducing drwaf wheat, but the cloud looks like a platypus](cloud.jpg){.lightbox group="g5"}
+
+:::
+
+
+At the end of the day, we headed back home tired but happy. Others in the car asked about who we were on the drive. It was definitely easier to explain once we mentioned BDSI and Emi. Hopefully one day BDSI will return! (it was quite funny how Tony forgot Patrick’s name for the third time).
