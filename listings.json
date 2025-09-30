@@ -5,9 +5,21 @@
       "/people/staff/emi-tanaka/index.html",
       "/people/staff/alan-welsh/index.html",
       "/people/staff/francis-hui/index.html",
+      "/people/staff/yidi-deng/index.html",
       "/people/staff/fonti-kar/index.html",
-      "/people/staff/patrick-li/index.html",
-      "/people/staff/yidi-deng/index.html"
+      "/people/staff/patrick-li/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/news/posts/2025-09-03/index.html",
+      "/news/posts/2025-08-24/index.html",
+      "/news/posts/2025-07-14/index.html",
+      "/news/posts/2025-07-11/index.html",
+      "/news/posts/2025-06-04/index.html",
+      "/news/posts/2025-05-05/index.html",
+      "/news/posts/2024-12-19/index.html"
     ]
   },
   {
@@ -17,18 +29,5 @@
   {
     "listing": "/events/index.html",
     "items": []
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/news/posts/2025-09-17/index.html",
-      "/news/posts/2025-09-03/index.html",
-      "/news/posts/2025-08-24/index.html",
-      "/news/posts/2025-07-14/index.html",
-      "/news/posts/2025-07-11/index.html",
-      "/news/posts/2025-06-04/index.html",
-      "/news/posts/2025-05-05/index.html",
-      "/news/posts/2024-12-19/index.html"
-    ]
   }
 ]
