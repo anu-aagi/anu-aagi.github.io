@@ -7,8 +7,10 @@
 <details>
 <div style="border-left: 1px solid grey;padding-left: 10px;">
 <%= talk.abstract %><br><br>
+<% if (talk.bio) { %>
 <b>Bio</b>
 <p><%= talk.bio %></p>
+<% } %>
 </div>
 </details>
 

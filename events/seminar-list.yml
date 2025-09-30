@@ -2,7 +2,7 @@
   time: 3pm
   speaker: Zhanglong Cao
   affiliation: Curtin University
-  title: Design and Spatial Analysis of On-Farm Strip Trials: From Principles to Simulation Evaluations
+  title: "Design and Spatial Analysis of On-Farm Strip Trials: From Principles to Simulation Evaluations"
   abstract: >
     This study explores statistical strategies for the design and analysis of on-farm experiments (OFE), grounded in established principles of experimental design and spatial modelling. Through simulation studies, we assess various approaches, including design layouts combined with Geographically Weighted Regression (GWR) for continuous response variables and Linear Mixed Models (LMM) for categorical treatments. Our results align with key findings in the literature, emphasising the importance of appropriate design and modelling choices for effectively capturing spatial heterogeneity. Additionally, we compare two trial types—large-strip trials and stacked replicated trials—and highlight the significance of data granularity, which informs data collection strategies for industry partners. The findings advocate for appropriate trial designs for different purpose, and increased within-trial sampling, rather than reliance solely on average values to better reflect local variability and enhance inference accuracy. This work underscores the critical role of tailored statistical methods in improving the reliability and practical applicability of OFE outcomes.
 - date: 2025/08/15
