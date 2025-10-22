@@ -1,3 +1,14 @@
+- date: 2025/10/20
+  time: 11am
+  speaker: Michael Mumford
+  affiliation: Queensland Department of Primary Industries
+  title: "A predictive model for genotype x environment x management practice (GxExM) interactions incorporating environmental covariates"
+  abstract: >
+    In field crops research, genotype by environment (G×E) interactions are ubiquitous. The development of statistical methods to model the genotype by environment interaction using environmental covariates (ECs) has mostly occurred within the context of crop breeding. In agronomic research, measuring the impact of management practice (M) on genotype performance is also a key objective, giving rise to the genotype by environment by management practice (G×E×M) interaction.
+    
+    A one-stage analysis approach, implemented in a linear mixed model framework, is presented, which incorporates ECs to disentangle the G×E×M interaction effects. The linear mixed model framework allows adjustments for design effects and spatial field trend, along with the estimation of heterogeneous residual variance across environments. An application of the methodology will be demonstrated using a series of sorghum agronomy field experiments. Recently, a complementary R-package called ecreml was developed to enable researchers to easily apply the developed statistical methodology to their own multi-environment trial data consisting of G×E×M interaction effects, and is publicly available to install via [GitHub](https://github.com/michaelhm-daf/ecreml).
+  bio: >
+    Michael is a biometrician at the Queensland Department of Primary Industries, with extensive experience collaborating with agricultural researchers on a range of Grain Research Development Corporation (GRDC) projects; initially through the Statistics for the Australian Grains Industry (SAGI) project and more recently the Analytics for the Australian Grain Industry (AAGI) initiative. Michael’s research interests are in statistical methodological development, with a focus on developing methodologies that are directly applicable to agricultural experiments. Michael is also completing PhD studies part-time currently through the University of Queensland, focused on developing improved statistical methodologies for the analysis of count data arising from comparative agricultural experiments using generalised linear mixed models.
 - date: 2025/10/07
   time: 3pm
   speaker: Zhanglong Cao
