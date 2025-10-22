@@ -34,15 +34,15 @@
   title: Novel methods for analysing single cell gene expression data
   abstract: >
    This talk will introduce three novel methods we developed to address key 
-   challenges in single-cell RNA-seq (scRNA-seq) data analysis. <b>Sincast</b>
+   challenges in single-cell RNA-seq (scRNA-seq) data analysis. **Sincast**
    is an imputation method that denoises scRNA-seq data to enhance the 
    robustness of downstream statistical analyses. Its utility is highlighted 
    through comprehensive benchmarking of cell identity against bulk 
-   transcriptomic references. <b>StableMate</b> is a stability-focused regression 
+   transcriptomic references. **StableMate** is a stability-focused regression 
    framework that identifies functional dependencies in gene expression that 
    are either conserved or meaningfully variable across biological contexts. 
    When applied to scRNA-seq data, StableMate enhances reproducibility and 
-   provides regulatory insights into co-expression analyses. <b>NeighbourNet</b> 
+   provides regulatory insights into co-expression analyses. **NeighbourNet** 
    constructs cell-specific gene regulatory networks, facilitating the fine-grained 
    characterization of gene regulatory dynamics at the single-cell level and 
    offering a new perspective on analysing scRNA-seq through cellular variation 
