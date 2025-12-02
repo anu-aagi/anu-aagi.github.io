@@ -1,20 +1,17 @@
-```{=html}
-
 <% for (let talk of items) { %>
-<h3><%= talk.date %></h3>
-<b style="font-size:1.3em;"><%= talk.title %></b><br>
-<i style="font-size:1.3em;"><%= talk.speaker %> (<%= talk.affiliation %>)</i>
+<h3><%- talk.date %></h3>
+<b style="font-size:1.3em;"><%- talk.title %></b><br>
+<i style="font-size:1.3em;"><%- talk.speaker %> (<%- talk.affiliation %>)</i>
+
 <details>
-<div style="border-left: 1px solid grey;padding-left: 10px;">
-<%= talk.abstract %><br><br>
+  <summary>Show Details</summary>
+
+<%- talk.abstract %>
+
 <% if (talk.bio) { %>
-<b>Bio</b>
-<p><%= talk.bio %></p>
+**Bio:**  
+<%- talk.bio %>
 <% } %>
-</div>
+
 </details>
-
-
 <% } %>
-
-```
