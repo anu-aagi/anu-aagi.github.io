@@ -1,0 +1,31 @@
+---
+title: 'Biometrics in the Bush Capital'
+author: Emi Tanaka
+date: '2025-12-02'
+---
+
+It was an absolute pleasure to organise and get to welcome delegates to the [**Biometrics in the Bush Capital**](https://biometricsociety.org.au/conference2025/) (BIBC2025), the Australasian Region Biometrics conference by the International Biometrics Society Australasian Region.
+
+The organisation of the conference was made possible thanks to the efforts of the local organising committee, pictured below (with the exception of Joanne, who is missing from the photo). I would like to extend my sincere thanks to each of them, as well as to our photographer, Can Li. 
+
+
+![Local Organising Committee (from the left): Quan Vu, Yidi Deng, Patrick Weihao Li, Emi Tanaka, Fonti Kar, Warren Muller, and Alan Welsh](DSC04803.JPG)
+
+When we needed to adapt quickly due to the unfavourable weather forecast for the outdoor tours, Quan and Fonti quickly arranged for an alternative tour at the Australian Parliament House. Since this coincided with a Parliamentary sitting week, delegates had the unexpected opportunity to attend Question Time, which, from all accounts, was an enjoyable experience! Well done team in adapting so quickly!
+
+
+Congratulations are in order for:
+
+- **Maggie** for winning the _People's Choice Poster Prize_ on her work for her R package `ggincerta` for uncertainty visualisation with a layered grammar of graphics, and
+- **Jenny** for receiving the _Honourable Mention for the Student Poster Prize_ based on her Honours project on Factor Analytic Mixed Models and Plackett-Luce Models for Multi-Environmental Trials.
+
+Well done Maggie and Jenny!
+
+
+![Maggie was the winner of the People's Choice Poster Prize.](IMG_0440.JPG)
+
+![Jenny received honourable mention for her poster.](IMG_0441.JPG)
+
+Good job also **Fonti** for delivering her first talk at a Biometrics conference on her `heritable` R package for heritability calculations for breeding trials.
+
+![Fonti delivering her talk on the `heritable` package. ](DSC04774.JPG)
