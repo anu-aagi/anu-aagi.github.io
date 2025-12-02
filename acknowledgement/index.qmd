@@ -1,0 +1,20 @@
+---
+title: Acknowledgement
+---
+
+
+We gratefully acknowledge sponsorship by [Zulip](https://zulip.com/) for cloud hosting of our team chat. 
+
+![](zulip-icon-circle.svg){height="2em"}
+
+
+
+We are also grateful for technology and tools that enable our work. These include:
+
+
+- ![](quarto.png){height="2em"} [Quarto](https://quarto.org/), which we used to develop this website
+
+- ![](github.png){height="2em"} GitHub, which we use to host this website and also use extensively for our projects
+
+- ![](rlogo.png){height="2em"} R, which we use for our statistical analysis.
+

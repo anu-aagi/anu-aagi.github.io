@@ -33,6 +33,7 @@ website:
       - href: about/index.qmd
         text: About
         icon: info-circle-fill
+      - href: acknowledgement/index.qmd
       - href: contact/index.qmd
         text: Contact
         icon: envelope-fill
