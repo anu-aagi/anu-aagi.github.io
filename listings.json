@@ -1,14 +1,7 @@
 [
   {
-    "listing": "/people/index.html",
-    "items": [
-      "/people/staff/emi-tanaka/index.html",
-      "/people/staff/alan-welsh/index.html",
-      "/people/staff/francis-hui/index.html",
-      "/people/staff/yidi-deng/index.html",
-      "/people/staff/fonti-kar/index.html",
-      "/people/staff/patrick-li/index.html"
-    ]
+    "listing": "/news/index.html",
+    "items": []
   },
   {
     "listing": "/index.html",
@@ -24,8 +17,15 @@
     ]
   },
   {
-    "listing": "/news/index.html",
-    "items": []
+    "listing": "/people/index.html",
+    "items": [
+      "/people/staff/emi-tanaka/index.html",
+      "/people/staff/alan-welsh/index.html",
+      "/people/staff/francis-hui/index.html",
+      "/people/staff/yidi-deng/index.html",
+      "/people/staff/fonti-kar/index.html",
+      "/people/staff/patrick-li/index.html"
+    ]
   },
   {
     "listing": "/events/index.html",
