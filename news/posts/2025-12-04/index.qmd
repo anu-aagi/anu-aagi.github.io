@@ -1,0 +1,20 @@
+---
+title: 'The Australian Statistical Conference 2025'
+author: Patrick Li
+date: '2025-12-04'
+---
+
+![Australian Statistical Conference 2025, Perth.](WechatIMG83.jpg)
+
+
+On 1 December 2025, the Australian Statistical Conference 2025, held in conjunction with the Statistical Education Symposium, officially opened in Perth, Western Australia. The five-day event was jointly hosted by Curtin University and the Statistical Society of Australia (SSA), attracting statisticians and researchers from across the country to gather and exchange ideas.
+
+Throughout the conference, several eminent scholars delivered keynote speeches, offering in-depth insights into the future directions and development trends of statistical science under the evolving landscape of technology and society. Researchers from various fields also presented their latest work on frontier topics in statistics, engaging in extensive discussions that further promoted academic innovation and cross-disciplinary collaboration.
+
+![Warren Muller is honored with the Society Service Award at the Australian Statistical Conference 2025, recognizing his outstanding contributions to the statistical community.](WechatIMG81.jpg)
+
+At the closing ceremony, the conference announced this year’s honorary awards. Warren Muller, from the ACT Branch, received the Society Service Award in recognition of his longstanding and outstanding contributions to the statistical community.
+
+![Dr. Patrick Li presents the core functions of his `autovi` package for automated assessment of residual plots at the Australian Statistical Conference 2025.](WechatIMG19762.jpg)
+
+The conference concluded successfully and achieved positive outcomes. Dr. Patrick Li, a postdoctoral researcher from the ANU-AAGI project team, was invited to deliver a presentation titled *“Automated Assessment of Residual Plots with Computer Vision Models,”* which received strong interest and positive feedback from attendees.

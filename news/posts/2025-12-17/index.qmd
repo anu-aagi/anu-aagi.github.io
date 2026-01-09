@@ -1,0 +1,98 @@
+---
+title: 'A One-Stop Shop for Heritability Estimation'
+author: Fonti Kar and Emi Tanaka
+date: '2025-12-17'
+draft: true
+editor_options: 
+  chunk_output_type: console
+---
+
+## What is heritability?
+In genetics, heritability quantifies how much of the variation in a trait is due to genetic differences vs. environmental effects. It underpins how we interpret quantitative traits in breeding and evolutionary biology. 
+
+Researchers use heritability to understand trait inheritance, design selection strategies, and compare potential genetic gain across contexts.
+
+## The challenge
+Recently, a handful of statistical methods have been proposed for generalising heritability to account for factors such as unbalanced replication. These competing methods are important for our understanding of sources of variation, but they have not been implemented in an accessible way. 
+
+To complicate matters further, its not common convention to openly report on _how_ we calculate heritability. Rarely do we share our heritability code scripts either. This makes it difficult to reproduce each others calculations and objectively make interpretations across studies. 
+
+### 📦 Introducing {heritable}
+
+`heritable` is an R package designed to compute a variety of heritability estimates from mixed model outputs. 
+Our goal is to provide a centralised toolkit for heritability calculations. Currently, we have implemented six  **broad-sense heritability** methods for **single environment models**.  Our functions are compatible with mixed model objects from packages `lme4` and `asreml`
+
+We are currently in the process of submitting to CRAN but you can also install from our Github repository
+
+```{r}
+# Using pak
+#install.packages("pak")
+# pak::pak("anu-aagi/heritable")
+
+library(heritable)
+```
+
+#### Heritability methods 
+
+We have implemented the following for broad-sense heritability: 
+
+- [Cullis' method](https://link.springer.com/content/pdf/10.1198%2F108571106X154443.pdf)
+- [Oakey's method](link.springer.com/content/pdf/10.1007%2Fs00122-006-0333-z.pdf)
+- [Piepho's method](https://academic.oup.com/genetics/article-pdf/177/3/1881/37411981/genetics1881.pdf)
+- [Delta method](https://academic.oup.com/genetics/article/212/4/991/5931331)
+- Standard method
+
+You can learn more about these on [our package website](https://anu-aagi.github.io/heritable/reference/index.html)  
+
+These methods come from mixed model theory and differ in how to obtain the necessary variance components for calculations. We recommend having a good read of [Paul Schmidt's and colleagues review paper](https://academic.oup.com/genetics/article/212/4/991/5931331) to learn more about their derivation and nuances. 
+
+## A quick demo
+
+We'll use the `lettuce` dataset included in the package to show you the workflow of the package
+
+### Fit a single environment model
+
+Let's fit a single environment model using `lme4` and `asreml`, noting that the latter requires a license to run. 
+
+```{r}
+#| message: false
+#| warning: false
+library(lme4)
+fit_lme4 <- lmer(y ~ rep + (1|gen) + (1|rep), data = lettuce_phenotypes)
+```
+
+```{r}
+#| message: false
+#| warning: false
+library(asreml)
+fit_asreml <- asreml(
+  fixed = y ~ rep,
+  random = ~ gen,
+  data = lettuce_phenotypes,
+  trace = FALSE
+)
+```
+
+### Calculate broad-sense heritability
+
+Use the wrapper `H2()`
+
+```{r}
+H2(fit_lme4, target = "gen")
+H2(fit_asreml, target = "gen")
+```
+
+This makes it easy to compare heritability estimates across different measures or models. 
+
+## What's next for {heritable} and contributing
+
+The package is still under active development on Github. We have a few features in the pipeline including: 
+
+- Narrow-sense heritability calculations
+- Confidence intervals for estimates
+- Estimates for G x E models
+- Expand compatibility with `glmmTMB` and Bayesian models `brms` or `rstan`
+- Data visualiation of variance decomposition
+
+
+We are always excited to receive feedback, hear new ideas and find ways to collaborate. Get in touch by submitting a [Github issue at our repository](https://github.com/anu-aagi/heritable)! 
