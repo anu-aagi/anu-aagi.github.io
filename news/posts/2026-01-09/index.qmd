@@ -4,6 +4,9 @@ author: Emi Tanaka
 date: '2026-01-09'
 image: symposium.jpeg
 ---
+
+Some highlights from 2025 in a slide:
+
 <style>
 .slide-deck {
     border: 3px solid #dee2e6;
