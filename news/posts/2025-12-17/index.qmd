@@ -1,8 +1,7 @@
 ---
 title: 'A One-Stop Shop for Heritability Estimation'
 author: Fonti Kar and Emi Tanaka
-date: '2025-12-17'
-draft: true
+date: '2026-01-12'
 editor_options: 
   chunk_output_type: console
 ---
@@ -25,9 +24,7 @@ Our goal is to provide a centralised toolkit for heritability calculations. Curr
 We are currently in the process of submitting to CRAN but you can also install from our Github repository
 
 ```{r}
-# Using pak
-#install.packages("pak")
-# pak::pak("anu-aagi/heritable")
+# install.packages("heritable")
 
 library(heritable)
 ```
