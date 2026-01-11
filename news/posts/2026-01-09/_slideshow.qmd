@@ -1,0 +1,17 @@
+---
+title-meta: '2025 Highlights'
+author-meta: Emi Tanaka
+format:
+  revealjs:
+    embed-resources: true
+---
+
+```{r}
+#| echo: false
+#| results: asis
+fn <- dir(pattern = "[.]png")
+for(afn in fn) {
+  cat(glue::glue("\n\n## {background-image='{{afn}}'}\n\n\n", .open = "{{", .close = "}}"))
+}
+```
+
