@@ -49,6 +49,48 @@
     "text": "We’re excited to have Fonti Kar join the team, working in the area of experimental design and statistical modelling for comparative agricultural experiments.\nFonti has a wealth of experience in R programming and developing tools that aid research for others, in addition to her experience in evolutionary ecology where she quantified the heritability of traits from her lizard breeding experiment. She’s the lead developer for the austraits R package, which won a software award. We’re looking forward to working with her and the new perspectives and ideas she will bring to the project!"
   },
   {
+    "objectID": "news/posts/2025-12-17/index.html",
+    "href": "news/posts/2025-12-17/index.html",
+    "title": "A One-Stop Shop for Heritability Estimation",
+    "section": "",
+    "text": "In genetics, heritability quantifies how much variation in a trait is due to genetic differences vs. environmental effects. It provides an indication of how evolvable traits are which is important for fields such as evolutionary ecology, quantitative genetics and breeding research."
+  },
+  {
+    "objectID": "news/posts/2025-12-17/index.html#what-is-heritability",
+    "href": "news/posts/2025-12-17/index.html#what-is-heritability",
+    "title": "A One-Stop Shop for Heritability Estimation",
+    "section": "",
+    "text": "In genetics, heritability quantifies how much variation in a trait is due to genetic differences vs. environmental effects. It provides an indication of how evolvable traits are which is important for fields such as evolutionary ecology, quantitative genetics and breeding research."
+  },
+  {
+    "objectID": "news/posts/2025-12-17/index.html#the-challenge",
+    "href": "news/posts/2025-12-17/index.html#the-challenge",
+    "title": "A One-Stop Shop for Heritability Estimation",
+    "section": "The challenge",
+    "text": "The challenge\nRecently, a number of statistical methods have been proposed for generalising heritability to account for factors such as unbalanced replication. These competing methods are important for accounting different sources of variation, but they have not been implemented in an accessible way.\nTo complicate matters further, its not common convention to openly report on how we calculate heritability. Rarely do we share our heritability code scripts either. This makes it difficult to reproduce each others calculations and objectively make interpretations across studies.\n\n📦 Introducing {heritable}\nheritable is an R package designed to compute a variety of heritability estimates from mixed model outputs. Our goal is to provide a centralised toolkit for heritability calculations. Currently, we have implemented six broad-sense heritability methods for single environment models. Our functions are compatible with mixed model objects from packages lme4 and asreml\nYou can download heritable from CRAN!\n\n# install.packages(\"heritable\")\n\nlibrary(heritable)\n\nAlternatively, if you would like the latest developements you can download heritable directly from our Github repo\n\n# remotes::install_github(\"anu-aagi/heritable\")\n\n\nHeritability methods\nWe have implemented the following for broad-sense heritability:\n\nCullis’ method\nOakey’s method\nPiepho’s method\nDelta method\nStandard method\n\nYou can learn more about these on our package website\nThese methods come from mixed model theory and differ in how to obtain the necessary variance components for calculations. We recommend having a good read of Paul Schmidt’s and colleagues review paper to learn more about their derivation and nuances."
+  },
+  {
+    "objectID": "news/posts/2025-12-17/index.html#a-quick-demo",
+    "href": "news/posts/2025-12-17/index.html#a-quick-demo",
+    "title": "A One-Stop Shop for Heritability Estimation",
+    "section": "A quick demo",
+    "text": "A quick demo\nWe’ll use the lettuce dataset included in the package to show you the workflow of the package\n\nFit a single environment model\nLet’s fit a single environment model using lme4 and asreml, noting that the latter requires a license to run.\n\nlibrary(lme4)\nfit_lme4 &lt;- lmer(y ~ rep + (1|gen) + (1|rep), data = lettuce_phenotypes)\n\n\nlibrary(asreml)\n\nOnline License checked out Wed Jan 14 13:58:24 2026\n\nfit_asreml &lt;- asreml(\n  fixed = y ~ rep,\n  random = ~ gen,\n  data = lettuce_phenotypes,\n  trace = FALSE\n)\n\n\n\nCalculate broad-sense heritability\nBy default, the wrapper H2() will compute all available estimates for you.\n\nH2(fit_lme4, target = \"gen\")\n\n   Cullis     Oakey    Piepho     Delta  Standard \n0.7737572 0.7737572 0.7724131 0.7737572 0.7725492 \n\nH2(fit_asreml, target = \"gen\")\n\n   Cullis     Oakey    Piepho     Delta  Standard \n0.7737597 0.7737597 0.7725934 0.7737597 0.7738271"
+  },
+  {
+    "objectID": "news/posts/2025-12-17/index.html#whats-next-for-heritable-and-contributing-to-the-package",
+    "href": "news/posts/2025-12-17/index.html#whats-next-for-heritable-and-contributing-to-the-package",
+    "title": "A One-Stop Shop for Heritability Estimation",
+    "section": "What’s next for {heritable} and contributing to the package",
+    "text": "What’s next for {heritable} and contributing to the package\nWe have a few features in the pipeline including:\n\nNarrow-sense heritability calculations\nConfidence intervals for estimates\nEstimates for G x E models\nExpand compatibility with glmmTMB and Bayesian models brms or rstan\nData visualiation of variance decomposition\n\nWe are always excited to receive feedback, hear new ideas and find ways to collaborate. Get in touch by submitting a Github issue at our repository!"
+  },
+  {
+    "objectID": "news/posts/2025-12-17/index.html#learn-more",
+    "href": "news/posts/2025-12-17/index.html#learn-more",
+    "title": "A One-Stop Shop for Heritability Estimation",
+    "section": "Learn more",
+    "text": "Learn more\nCheck out Fonti’s Biometrics in the Bush Capital conference talk, where she soft launches heritable"
+  },
+  {
     "objectID": "news/posts/2025-08-24/index.html",
     "href": "news/posts/2025-08-24/index.html",
     "title": "Glasshouse wheat experiment tour",
@@ -74,7 +116,7 @@
     "href": "index.html#news",
     "title": "Analytics for the Australian Grains Industry",
     "section": "News",
-    "text": "News\n\n\n\n\n\n\n\n\n\n\n2025 Highlights\n\n\n\n\n\n\n\n\nJan 9, 2026\n\n\nEmi Tanaka\n\n\n\n\n\n\n\n\n\n\n\n\nThe Australian Statistical Conference 2025\n\n\n\n\n\n\n\n\nDec 4, 2025\n\n\nPatrick Li\n\n\n\n\n\n\n\n\n\n\n\n\nBiometrics in the Bush Capital\n\n\n\n\n\n\n\n\nDec 2, 2025\n\n\nEmi Tanaka\n\n\n\n\n\n\n\n\n\n\n\n\nVisiting Boorowa Agricultural Research Station of CSIRO\n\n\n\n\n\n\n\n\nSep 17, 2025\n\n\nYidi Deng\n\n\n\n\n\n\n\n\n\n\n\n\nVisiting the Lab of Biometry and Bioinformatics at the University of Tokyo\n\n\n\n\n\n\n\n\nSep 3, 2025\n\n\nEmi Tanaka\n\n\n\n\n\n\n\n\n\n\n\n\nGlasshouse wheat experiment tour\n\n\n\n\n\n\n\n\nAug 24, 2025\n\n\nEmi Tanaka\n\n\n\n\n\n\n\n\n\n\n\n\nANU AAGI Training Sessions\n\n\n\n\n\n\n\n\nJul 14, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to Yidi!\n\n\n\n\n\n\n\n\nJul 11, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to Fonti!\n\n\n\n\n\n\n\n\nJun 4, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to Patrick!\n\n\n\n\n\n\n\n\nMay 5, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nJob alert 📢 Seeking 3 postdocs\n\n\n\n\n\n\n\n\nDec 19, 2024\n\n\n\n\n\nNo matching items"
+    "text": "News\n\n\n\n\n\n\n\n\n\n\nA One-Stop Shop for Heritability Estimation\n\n\n\n\n\n\n\n\nJan 12, 2026\n\n\nFonti Kar and Emi Tanaka\n\n\n\n\n\n\n\n\n\n\n\n\n2025 Highlights\n\n\n\n\n\n\n\n\nJan 9, 2026\n\n\nEmi Tanaka\n\n\n\n\n\n\n\n\n\n\n\n\nThe Australian Statistical Conference 2025\n\n\n\n\n\n\n\n\nDec 4, 2025\n\n\nPatrick Li\n\n\n\n\n\n\n\n\n\n\n\n\nBiometrics in the Bush Capital\n\n\n\n\n\n\n\n\nDec 2, 2025\n\n\nEmi Tanaka\n\n\n\n\n\n\n\n\n\n\n\n\nVisiting Boorowa Agricultural Research Station of CSIRO\n\n\n\n\n\n\n\n\nSep 17, 2025\n\n\nYidi Deng\n\n\n\n\n\n\n\n\n\n\n\n\nVisiting the Lab of Biometry and Bioinformatics at the University of Tokyo\n\n\n\n\n\n\n\n\nSep 3, 2025\n\n\nEmi Tanaka\n\n\n\n\n\n\n\n\n\n\n\n\nGlasshouse wheat experiment tour\n\n\n\n\n\n\n\n\nAug 24, 2025\n\n\nEmi Tanaka\n\n\n\n\n\n\n\n\n\n\n\n\nANU AAGI Training Sessions\n\n\n\n\n\n\n\n\nJul 14, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to Yidi!\n\n\n\n\n\n\n\n\nJul 11, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to Fonti!\n\n\n\n\n\n\n\n\nJun 4, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to Patrick!\n\n\n\n\n\n\n\n\nMay 5, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nJob alert 📢 Seeking 3 postdocs\n\n\n\n\n\n\n\n\nDec 19, 2024\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "contact/index.html",
