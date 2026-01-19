@@ -7,12 +7,10 @@ editor_options:
 ---
 
 ## What is heritability?
-In genetics, heritability quantifies how much of the variation in a trait is due to genetic differences vs. environmental effects. It underpins how we interpret quantitative traits in breeding and evolutionary biology. 
-
-Researchers use heritability to understand trait inheritance, design selection strategies, and compare potential genetic gain across contexts.
+In genetics, heritability quantifies how much variation in a trait is due to genetic differences vs. environmental effects. It provides an indication of how evolvable traits are which is important for fields such as evolutionary ecology, quantitative genetics and breeding research. 
 
 ## The challenge
-Recently, a handful of statistical methods have been proposed for generalising heritability to account for factors such as unbalanced replication. These competing methods are important for our understanding of sources of variation, but they have not been implemented in an accessible way. 
+Recently, a number of statistical methods have been proposed for generalising heritability to account for factors such as unbalanced replication. These competing methods are important for accounting different sources of variation, but they have not been implemented in an accessible way. 
 
 To complicate matters further, its not common convention to openly report on _how_ we calculate heritability. Rarely do we share our heritability code scripts either. This makes it difficult to reproduce each others calculations and objectively make interpretations across studies. 
 
@@ -21,7 +19,7 @@ To complicate matters further, its not common convention to openly report on _ho
 `heritable` is an R package designed to compute a variety of heritability estimates from mixed model outputs. 
 Our goal is to provide a centralised toolkit for heritability calculations. Currently, we have implemented six  **broad-sense heritability** methods for **single environment models**.  Our functions are compatible with mixed model objects from packages `lme4` and `asreml`
 
-We are currently in the process of submitting to CRAN but you can also install from our Github repository
+You can download `heritable` from CRAN! 
 
 ```{r}
 # install.packages("heritable")
@@ -29,19 +27,25 @@ We are currently in the process of submitting to CRAN but you can also install f
 library(heritable)
 ```
 
+Alternatively, if you would like the latest developements you can download `heritable` directly from our Github repo
+
+```{r}
+# remotes::install_github("anu-aagi/heritable")
+```
+
 #### Heritability methods 
 
 We have implemented the following for broad-sense heritability: 
 
-- [Cullis' method](https://link.springer.com/content/pdf/10.1198%2F108571106X154443.pdf)
-- [Oakey's method](link.springer.com/content/pdf/10.1007%2Fs00122-006-0333-z.pdf)
-- [Piepho's method](https://academic.oup.com/genetics/article-pdf/177/3/1881/37411981/genetics1881.pdf)
-- [Delta method](https://academic.oup.com/genetics/article/212/4/991/5931331)
+- [Cullis' method](https://link.springer.com/content/pdf/10.1198%2F108571106X154443.pdf){target="_blank"}
+- [Oakey's method](link.springer.com/content/pdf/10.1007%2Fs00122-006-0333-z.pdf){target="_blank"}
+- [Piepho's method](https://academic.oup.com/genetics/article-pdf/177/3/1881/37411981/genetics1881.pdf){target="_blank"}
+- [Delta method](https://academic.oup.com/genetics/article/212/4/991/5931331){target="_blank"}
 - Standard method
 
-You can learn more about these on [our package website](https://anu-aagi.github.io/heritable/reference/index.html)  
+You can learn more about these on [our package website](https://anu-aagi.github.io/heritable/reference/index.html){target="_blank"}  
 
-These methods come from mixed model theory and differ in how to obtain the necessary variance components for calculations. We recommend having a good read of [Paul Schmidt's and colleagues review paper](https://academic.oup.com/genetics/article/212/4/991/5931331) to learn more about their derivation and nuances. 
+These methods come from mixed model theory and differ in how to obtain the necessary variance components for calculations. We recommend having a good read of [Paul Schmidt's and colleagues review paper](https://academic.oup.com/genetics/article/212/4/991/5931331){target="_blank"} to learn more about their derivation and nuances. 
 
 ## A quick demo
 
@@ -72,18 +76,16 @@ fit_asreml <- asreml(
 
 ### Calculate broad-sense heritability
 
-Use the wrapper `H2()`
+By default, the wrapper `H2()` will compute all available estimates for you. 
 
 ```{r}
 H2(fit_lme4, target = "gen")
 H2(fit_asreml, target = "gen")
 ```
 
-This makes it easy to compare heritability estimates across different measures or models. 
+## What's next for {heritable} and contributing to the package
 
-## What's next for {heritable} and contributing
-
-The package is still under active development on Github. We have a few features in the pipeline including: 
+We have a few features in the pipeline including: 
 
 - Narrow-sense heritability calculations
 - Confidence intervals for estimates
@@ -91,5 +93,8 @@ The package is still under active development on Github. We have a few features 
 - Expand compatibility with `glmmTMB` and Bayesian models `brms` or `rstan`
 - Data visualiation of variance decomposition
 
+We are always excited to receive feedback, hear new ideas and find ways to collaborate. Get in touch by submitting a [Github issue at our repository](https://github.com/anu-aagi/heritable){target="_blank"}! 
 
-We are always excited to receive feedback, hear new ideas and find ways to collaborate. Get in touch by submitting a [Github issue at our repository](https://github.com/anu-aagi/heritable)! 
+## Learn more
+
+Check out Fonti's [Biometrics in the Bush Capital conference talk](https://biometricsociety.org.au/conference2025/slides/Contributed/S11B1-Fonti%20Kar.pdf), where she soft launches `heritable`
