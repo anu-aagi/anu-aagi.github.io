@@ -1,0 +1,14 @@
+
+:::{.list .grid .quarto-listing-cols-3}
+
+```{=html}
+
+<% for (const item of items) { %>
+
+<ul <%= metadataAttrs(item) %>>
+<li><%= item.name %> (<%= item.period %>)</li>
+</ul>
+<% } %>
+
+```
+:::

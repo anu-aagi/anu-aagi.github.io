@@ -4,12 +4,20 @@ listing:
   - id: staff
     categories: unnumbered
     contents:
-      - "staff/emi-tanaka/"
-      - "staff/alan-welsh/"
-      - "staff/francis-hui/"
-      - "staff/"
+      - "staff/ongoing/"
+      - "staff/fixed/"
+      - "staff/casual/"
     template: person.ejs
-    sort: false
+    sort: 
+      - position
+      - name
+  - id: alumni
+    categories: unnumbered
+    contents:
+      - "alumni/"
+    template: alumni.ejs
+    sort: 
+      - name
 format:
   html:
     css: people.css
@@ -28,3 +36,9 @@ comments: false
 - Mark Gibberd (Curtin)
 - Adam Sparks (Curtin)
 - Julian Taylor (Adelaide)
+
+## Alumni
+
+::: {#alumni}
+
+:::

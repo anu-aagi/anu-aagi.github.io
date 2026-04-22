@@ -1,0 +1,17 @@
+---
+title: 'Job alert 📢 Seeking postdoc and research software engineer'
+author: Emi Tanaka
+date: '2026-04-22'
+---
+
+We are looking for a:
+
+- Postdoctoral Fellow in Statistics, and 
+- Research Software Engineer (no PhD qualification required).
+
+Candidates for both positions must possess strong scientific programming skills, demonstrated experience working with real data, and a substantial commitment to reproducible and transparent workflows. We prefer candidates that are already familiar with some biology or analysis of plant improvement programs.
+
+For the **postdoctoral fellow**, we are particularly interested in candidates with expertise in statistics with potential to publish in reputable journals. More detail for this job can be found [here](https://jobs.anu.edu.au/jobs/postdoctoral-fellow-research-fellow-canberra-act-act-australia-0283c5db-ac98-47d1-a32a-2dec43c56de4). The job will close at **May 19 2026 23:55 AEST**.
+
+For the **research software engineer**, we prefer candidates who have developed R packages and have experience with software development best practices, including version control, testing, and documentation. More detail for this job can be found [here](https://jobs.anu.edu.au/jobs/research-software-engineer-canberra-act-act-australia-8f9c77ef-eff0-4151-8c1b-2a6982d07666). The job will close at **May 5 2026 23:55 AEST**.
+

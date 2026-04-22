@@ -3,4 +3,5 @@ name: Fonti Kar
 position: Research Fellow
 image: fonti.jpg
 email: fonti.kar@anu.edu.au
+period: 2025-2026
 ---
