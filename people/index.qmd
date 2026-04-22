@@ -18,6 +18,12 @@ listing:
     template: alumni.ejs
     sort: 
       - name
+  - id: students
+    template: student.ejs
+    sort:
+      - "period desc"
+    contents:
+    - student.yml
 format:
   html:
     css: people.css
@@ -28,6 +34,12 @@ comments: false
 ## Staff
 
 :::{#staff}
+:::
+
+## Students
+
+::: {#students}
+
 :::
 
 ## External collaborators
