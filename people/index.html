@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.9.12">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,14 +35,19 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-cdaacfc258cb6f151192107f105ac881.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-a555615fda6662b620e1ae2330e503bf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-cdaacfc258cb6f151192107f105ac881.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-f6b5de2e6a59f44d55330cc6db19da18.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ae9d96a476b72b1b165e8f9d7159128b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-ae9d96a476b72b1b165e8f9d7159128b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ae9d96a476b72b1b165e8f9d7159128b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -82,13 +87,41 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-sidebar','listing-name','listing-email','listing-position','listing-web','listing-image','listing-bluesky','listing-path','listing-outputHref','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-rpweb',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-sidebar','listing-name','listing-email','listing-position','listing-rpweb','listing-image','listing-path','listing-outputHref','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-web','listing-bluesky',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-sidebar","listing-name","listing-email","listing-position","listing-web","listing-image","listing-bluesky","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-rpweb"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-sidebar","listing-name","listing-email","listing-position","listing-rpweb","listing-image","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-web","listing-bluesky"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-staff'] = new List('listing-staff', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-alumni .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-sidebar','listing-name','listing-position','listing-image','listing-email','listing-period','listing-path','listing-outputHref','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-sidebar","listing-name","listing-position","listing-image","listing-email","listing-period","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-alumni'] = new List('listing-alumni', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -116,7 +149,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -134,7 +167,7 @@ window.Quarto = {
 
 <link rel="stylesheet" href="people.css">
 <meta property="og:title" content=" Meet the team – ANU AAGI">
-<meta property="og:image" content="https://anu-aagi.github.io/people/staff/patrick-li/thumbnail_patrick-li.jpg">
+<meta property="og:image" content="https://anu-aagi.github.io/people/staff/fixed/patrick-li/thumbnail_patrick-li.jpg">
 <meta property="og:site_name" content="ANU AAGI">
 </head>
 
@@ -146,7 +179,8 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../images/logo-small.png" alt="" class="navbar-logo">
+    <img src="../images/logo-small.png" alt="" class="navbar-logo light-content">
+    <img src="../images/logo-small.png" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">ANU AAGI</span>
@@ -241,11 +275,11 @@ window.Quarto = {
 <div id="listing-staff" class="quarto-listing quarto-listing-container-custom">
 <div class="list grid quarto-listing-cols-3">
 
-<div class="profile-box" data-index="0" data-listing-file-modified-sort="1765946828198" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="profile-box" data-index="0" data-listing-file-modified-sort="1748996374000" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 
 <center>
 <a href="https://emitanaka.org/">
-<img class="profile-photo" src="../people/staff/emi-tanaka/emi-photo.png"></a>
+<img class="profile-photo" src="../people/staff/ongoing/emi-tanaka/emi-photo.png"></a>
 </center>
 
 <div>
@@ -264,37 +298,12 @@ window.Quarto = {
 </div>
 </div>
 
-<div class="profile-box" data-index="1" data-listing-file-modified-sort="1765946828195" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-
-<a href="https://researchportalplus.anu.edu.au/en/persons/alan-welsh">
-</a><center><a href="https://researchportalplus.anu.edu.au/en/persons/alan-welsh">
-</a><a href="../people/staff/alan-welsh/index.html">
-<img class="profile-photo" src="../people/staff/alan-welsh/Alan-Welsh.jpg"></a>
-</center>
-
-
-<div>
-<center>
-<b>Alan Welsh</b>
-<p>E.J. Hannan Professor</p>
-
-<p>
-
-<a href="https://researchportalplus.anu.edu.au/en/persons/alan-welsh"><i class="fas fa-paperclip"></i></a>
-
-<a href="mailto:alan.welsh@anu.edu.au"><i class="fas fa-envelope"></i></a>
-
-</p>
-</center>
-</div>
-</div>
-
-<div class="profile-box" data-index="2" data-listing-file-modified-sort="1765946828201" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="profile-box" data-index="1" data-listing-file-modified-sort="1776857901325" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 
 <a href="https://researchportalplus.anu.edu.au/en/persons/francis-hui">
 </a><center><a href="https://researchportalplus.anu.edu.au/en/persons/francis-hui">
-</a><a href="../people/staff/francis-hui/index.html">
-<img class="profile-photo" src="../people/staff/francis-hui/Francis_Hui.jpg"></a>
+</a><a href="../people/staff/ongoing/francis-hui/index.html">
+<img class="profile-photo" src="../people/staff/ongoing/francis-hui/Francis_Hui.jpg"></a>
 </center>
 
 
@@ -314,11 +323,57 @@ window.Quarto = {
 </div>
 </div>
 
-<div class="profile-box" data-index="3" data-listing-file-modified-sort="1765946828205" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="profile-box" data-index="2" data-listing-file-modified-sort="1735441774000" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+
+<a href="https://researchportalplus.anu.edu.au/en/persons/alan-welsh">
+</a><center><a href="https://researchportalplus.anu.edu.au/en/persons/alan-welsh">
+</a><a href="../people/staff/ongoing/alan-welsh/index.html">
+<img class="profile-photo" src="../people/staff/ongoing/alan-welsh/Alan-Welsh.jpg"></a>
+</center>
+
+
+<div>
+<center>
+<b>Alan Welsh</b>
+<p>E.J. Hannan Professor</p>
+
+<p>
+
+<a href="https://researchportalplus.anu.edu.au/en/persons/alan-welsh"><i class="fas fa-paperclip"></i></a>
+
+<a href="mailto:alan.welsh@anu.edu.au"><i class="fas fa-envelope"></i></a>
+
+</p>
+</center>
+</div>
+</div>
+
+<div class="profile-box" data-index="3" data-listing-file-modified-sort="1743058098000" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 
 <center>
-<a href="../people/staff/yidi-deng/index.html">
-<img class="profile-photo" src="../people/staff/yidi-deng/profile.jpg"></a>
+<a href="../people/staff/fixed/patrick-li/index.html">
+<img class="profile-photo" src="../people/staff/fixed/patrick-li/thumbnail_patrick-li.jpg"></a>
+</center>
+
+<div>
+<center>
+<b>Patrick Weihao Li</b>
+<p>Postdoctoral Fellow</p>
+
+<p>
+
+<a href="mailto:patrick.li@anu.edu.au"><i class="fas fa-envelope"></i></a>
+
+</p>
+</center>
+</div>
+</div>
+
+<div class="profile-box" data-index="4" data-listing-file-modified-sort="1743058125000" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+
+<center>
+<a href="../people/staff/fixed/yidi-deng/index.html">
+<img class="profile-photo" src="../people/staff/fixed/yidi-deng/profile.jpg"></a>
 </center>
 
 <div>
@@ -333,42 +388,19 @@ window.Quarto = {
 </div>
 </div>
 
-<div class="profile-box" data-index="4" data-listing-file-modified-sort="1765946828200" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="profile-box" data-index="5" data-listing-file-modified-sort="1776857391433" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 
 <center>
-<a href="../people/staff/fonti-kar/index.html">
-<img class="profile-photo" src="../people/staff/fonti-kar/fonti.jpg"></a>
+<a href="../people/staff/casual/jenny-lin/index.html">
+<img class="profile-photo" src="../people/no-pic.jpg"></a>
 </center>
 
 <div>
 <center>
-<b>Fonti Kar</b>
-<p>Research Fellow</p>
+<b>Jenny Jiazhe Lin</b>
+<p>Research Assistant</p>
 
 <p>
-
-<a href="mailto:fonti.kar@anu.edu.au"><i class="fas fa-envelope"></i></a>
-
-</p>
-</center>
-</div>
-</div>
-
-<div class="profile-box" data-index="5" data-listing-file-modified-sort="1765946828202" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-
-<center>
-<a href="../people/staff/patrick-li/index.html">
-<img class="profile-photo" src="../people/staff/patrick-li/thumbnail_patrick-li.jpg"></a>
-</center>
-
-<div>
-<center>
-<b>Patrick Weihao Li</b>
-<p>Postdoctoral Fellow</p>
-
-<p>
-
-<a href="mailto:patrick.li@anu.edu.au"><i class="fas fa-envelope"></i></a>
 
 </p>
 </center>
@@ -387,6 +419,19 @@ window.Quarto = {
 <li>Adam Sparks (Curtin)</li>
 <li>Julian Taylor (Adelaide)</li>
 </ul>
+</section>
+<section id="alumni" class="level2">
+<h2 class="anchored" data-anchor-id="alumni">Alumni</h2>
+<div id="listing-alumni" class="quarto-listing quarto-listing-container-custom">
+<div class="list grid quarto-listing-cols-3">
+
+<ul data-index="0" data-listing-file-modified-sort="1776857629872" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<li>Fonti Kar (2025-2026)</li>
+</ul>
+
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 
 
 
@@ -444,13 +489,14 @@ window.Quarto = {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

@@ -1,11 +1,20 @@
 [
   {
-    "listing": "/news/index.html",
-    "items": []
+    "listing": "/people/index.html",
+    "items": [
+      "/people/staff/ongoing/emi-tanaka/index.html",
+      "/people/staff/ongoing/francis-hui/index.html",
+      "/people/staff/ongoing/alan-welsh/index.html",
+      "/people/staff/fixed/patrick-li/index.html",
+      "/people/staff/fixed/yidi-deng/index.html",
+      "/people/staff/casual/jenny-lin/index.html",
+      "/people/alumni/fonti-kar/index.html"
+    ]
   },
   {
     "listing": "/index.html",
     "items": [
+      "/news/posts/2026-04-22/index.html",
       "/news/posts/2025-12-17/index.html",
       "/news/posts/2026-01-09/index.html",
       "/news/posts/2025-12-04/index.html",
@@ -21,15 +30,8 @@
     ]
   },
   {
-    "listing": "/people/index.html",
-    "items": [
-      "/people/staff/emi-tanaka/index.html",
-      "/people/staff/alan-welsh/index.html",
-      "/people/staff/francis-hui/index.html",
-      "/people/staff/yidi-deng/index.html",
-      "/people/staff/fonti-kar/index.html",
-      "/people/staff/patrick-li/index.html"
-    ]
+    "listing": "/news/index.html",
+    "items": []
   },
   {
     "listing": "/events/index.html",
