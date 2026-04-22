@@ -133,6 +133,34 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-students .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-name','listing-period','listing-type','listing-supervisor',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-name","listing-period","listing-type","listing-supervisor"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-students'] = new List('listing-students', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
@@ -411,6 +439,25 @@ window.Quarto = {
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 </section>
+<section id="students" class="level2">
+<h2 class="anchored" data-anchor-id="students">Students</h2>
+<div id="listing-students" class="quarto-listing quarto-listing-container-custom">
+
+<ul>
+
+<li><strong>Mingyang Sheng</strong> (2026-ongoing) <em>Mathematics Research Project</em> supervised by Emi Tanaka and Patrick Li</li>
+
+<li><strong>Yuewen Liu</strong> (2026-ongoing) <em>Science Research Project</em> supervised by Qian Feng (CSIRO) and Emi Tanaka</li>
+
+<li><strong>Shiyan Miao</strong> (2025-ongoing) <em>Science Research Project</em> supervised by Emi Tanaka and Yidi Deng</li>
+
+<li><strong>Jenny Jiazhe Lin</strong> (2025) <em>Honours</em> supervised by Emi Tanaka and Fonti Kar</li>
+
+</ul>
+
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
 <section id="external-collaborators" class="level2">
 <h2 class="anchored" data-anchor-id="external-collaborators">External collaborators</h2>
 <ul>
@@ -423,13 +470,11 @@ window.Quarto = {
 <section id="alumni" class="level2">
 <h2 class="anchored" data-anchor-id="alumni">Alumni</h2>
 <div id="listing-alumni" class="quarto-listing quarto-listing-container-custom">
-<div class="list grid quarto-listing-cols-3">
 
 <ul data-index="0" data-listing-file-modified-sort="1776857629872" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <li>Fonti Kar (2025-2026)</li>
 </ul>
 
-</div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 

@@ -35,6 +35,13 @@
     "text": "Emi Tanaka\nANU-AAGI lead\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFrancis Hui\nAssociate Professor\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlan Welsh\nE.J. Hannan Professor\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPatrick Weihao Li\nPostdoctoral Fellow\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYidi Deng\nPostdoctoral Fellow\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJenny Jiazhe Lin\nResearch Assistant\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "people/index.html#students",
+    "href": "people/index.html#students",
+    "title": " Meet the team",
+    "section": "Students",
+    "text": "Students\n\n\n\n\nMingyang Sheng (2026-ongoing) Mathematics Research Project supervised by Emi Tanaka and Patrick Li\n\nYuewen Liu (2026-ongoing) Science Research Project supervised by Qian Feng (CSIRO) and Emi Tanaka\n\nShiyan Miao (2025-ongoing) Science Research Project supervised by Emi Tanaka and Yidi Deng\n\nJenny Jiazhe Lin (2025) Honours supervised by Emi Tanaka and Fonti Kar\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "people/index.html#external-collaborators",
     "href": "people/index.html#external-collaborators",
     "title": " Meet the team",
@@ -46,7 +53,7 @@
     "href": "people/index.html#alumni",
     "title": " Meet the team",
     "section": "Alumni",
-    "text": "Alumni\n\n\n\n\nFonti Kar (2025-2026)\n\n\n\nNo matching items"
+    "text": "Alumni\n\n\n\nFonti Kar (2025-2026)\n\n\nNo matching items"
   },
   {
     "objectID": "news/posts/2024-12-19/index.html",
@@ -102,7 +109,7 @@
     "href": "news/posts/2025-12-17/index.html#a-quick-demo",
     "title": "A One-Stop Shop for Heritability Estimation",
     "section": "A quick demo",
-    "text": "A quick demo\nWe’ll use the lettuce dataset included in the package to show you the workflow of the package\n\nFit a single environment model\nLet’s fit a single environment model using lme4 and asreml, noting that the latter requires a license to run.\n\nlibrary(lme4)\nfit_lme4 &lt;- lmer(y ~ rep + (1|gen) + (1|rep), data = lettuce_phenotypes)\n\n\nlibrary(asreml)\n\nOnline License checked out Wed Apr 22 21:52:01 2026\n\nfit_asreml &lt;- asreml(\n  fixed = y ~ rep,\n  random = ~ gen,\n  data = lettuce_phenotypes,\n  trace = FALSE\n)\n\n\n\nCalculate broad-sense heritability\nBy default, the wrapper H2() will compute all available estimates for you.\n\nH2(fit_lme4, target = \"gen\")\n\n   Cullis     Oakey    Piepho     Delta  Standard \n0.7737572 0.7737572 0.7720275 0.7737572 0.7725492 \n\nH2(fit_asreml, target = \"gen\")\n\n   Cullis     Oakey    Piepho     Delta  Standard \n0.7737597 0.7737597 0.7725934 0.7737597 0.7738271"
+    "text": "A quick demo\nWe’ll use the lettuce dataset included in the package to show you the workflow of the package\n\nFit a single environment model\nLet’s fit a single environment model using lme4 and asreml, noting that the latter requires a license to run.\n\nlibrary(lme4)\nfit_lme4 &lt;- lmer(y ~ rep + (1|gen) + (1|rep), data = lettuce_phenotypes)\n\n\nlibrary(asreml)\n\nOnline License checked out Wed Apr 22 22:22:18 2026\n\nfit_asreml &lt;- asreml(\n  fixed = y ~ rep,\n  random = ~ gen,\n  data = lettuce_phenotypes,\n  trace = FALSE\n)\n\n\n\nCalculate broad-sense heritability\nBy default, the wrapper H2() will compute all available estimates for you.\n\nH2(fit_lme4, target = \"gen\")\n\n   Cullis     Oakey    Piepho     Delta  Standard \n0.7737572 0.7737572 0.7720275 0.7737572 0.7725492 \n\nH2(fit_asreml, target = \"gen\")\n\n   Cullis     Oakey    Piepho     Delta  Standard \n0.7737597 0.7737597 0.7725934 0.7737597 0.7738271"
   },
   {
     "objectID": "news/posts/2025-12-17/index.html#whats-next-for-heritable-and-contributing-to-the-package",
