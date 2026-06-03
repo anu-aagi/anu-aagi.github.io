@@ -1,4 +1,5 @@
 ---
 name: Jenny Jiazhe Lin
 position: Research Assistant
+image: IMG_0053.JPG
 ---
