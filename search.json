@@ -137,7 +137,7 @@
     "href": "news/posts/2026-08-14/index.html",
     "title": "Welcome to Gusti!",
     "section": "",
-    "text": "We are delighted to welcome Gusti to the team. Despite his young age, Gusti has already demonstrated impressive professionalism, independence, and expertise in computing, together with a strong willingness to learn, contribute, and take on new challenges. We look forward to seeing his skills continue to develop and to the valuable contributions he will make as part of our team!”"
+    "text": "We are delighted to welcome Gusti to the team. Despite his young age, Gusti has already demonstrated impressive professionalism, independence, and expertise in computing, together with a strong willingness to learn, contribute, and take on new challenges. We look forward to seeing his skills continue to develop and to the valuable contributions he will make as part of our team!"
   },
   {
     "objectID": "news/posts/2025-08-24/index.html",
@@ -172,7 +172,7 @@
     "href": "news/posts/2025-12-17/index.html#a-quick-demo",
     "title": "A One-Stop Shop for Heritability Estimation",
     "section": "A quick demo",
-    "text": "A quick demo\nWe’ll use the lettuce dataset included in the package to show you the workflow of the package\n\nFit a single environment model\nLet’s fit a single environment model using lme4 and asreml, noting that the latter requires a license to run.\n\nlibrary(lme4)\nfit_lme4 &lt;- lmer(y ~ rep + (1|gen) + (1|rep), data = lettuce_phenotypes)\n\n\nlibrary(asreml)\n\nOnline License checked out Fri Aug 14 16:20:05 2026\n\nfit_asreml &lt;- asreml(\n  fixed = y ~ rep,\n  random = ~ gen,\n  data = lettuce_phenotypes,\n  trace = FALSE\n)\n\n\n\nCalculate broad-sense heritability\nBy default, the wrapper H2() will compute all available estimates for you.\n\nH2(fit_lme4, target = \"gen\")\n\n   Cullis     Oakey    Piepho     Delta  Standard \n0.7737572 0.7737572 0.7720275 0.7737572 0.7725492 \n\nH2(fit_asreml, target = \"gen\")\n\n   Cullis     Oakey    Piepho     Delta  Standard \n0.7737597 0.7737597 0.7725934 0.7737597 0.7738271"
+    "text": "A quick demo\nWe’ll use the lettuce dataset included in the package to show you the workflow of the package\n\nFit a single environment model\nLet’s fit a single environment model using lme4 and asreml, noting that the latter requires a license to run.\n\nlibrary(lme4)\nfit_lme4 &lt;- lmer(y ~ rep + (1|gen) + (1|rep), data = lettuce_phenotypes)\n\n\nlibrary(asreml)\n\nOnline License checked out Fri Aug 14 20:57:37 2026\n\nfit_asreml &lt;- asreml(\n  fixed = y ~ rep,\n  random = ~ gen,\n  data = lettuce_phenotypes,\n  trace = FALSE\n)\n\n\n\nCalculate broad-sense heritability\nBy default, the wrapper H2() will compute all available estimates for you.\n\nH2(fit_lme4, target = \"gen\")\n\n   Cullis     Oakey    Piepho     Delta  Standard \n0.7737572 0.7737572 0.7725405 0.7737572 0.7725219 \n\nH2(fit_asreml, target = \"gen\")\n\nA design matrix was not found in the asreml object. Building a design matrix.\nRegistered S3 method overwritten by 'car':\n  method           from\n  na.action.merMod lme4\n\n\n   Cullis     Oakey    Piepho     Delta  Standard \n0.7737597 0.7737597 0.7725430 0.7737597 0.7738271"
   },
   {
     "objectID": "news/posts/2025-12-17/index.html#whats-next-for-heritable-and-contributing-to-the-package",
