@@ -1,0 +1,10 @@
+---
+title: "Welcome to Gusti!"
+date: 2026-08-14
+---
+
+We are delighted to welcome Gusti to the team. Despite his young age, Gusti has already demonstrated impressive professionalism, independence, and expertise in computing, together with a strong willingness to learn, contribute, and take on new challenges. We look forward to seeing his skills continue to develop and to the valuable contributions he will make as part of our team!”
+
+
+
+![](gusti-at-office.jpg){width="30%"}
