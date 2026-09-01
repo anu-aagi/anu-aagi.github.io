@@ -2,11 +2,10 @@
 
 ```{=html}
 
+<ul >
 <% for (const item of items) { %>
-
-<ul <%= metadataAttrs(item) %>>
-<li><%= item.name %> (<%= item.period %>)</li>
-</ul>
+  <li <%= metadataAttrs(item) %>><%= item.name %> (<%= item.period %>)</li>
 <% } %>
+</ul>
 
 ```

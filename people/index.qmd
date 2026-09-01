@@ -4,9 +4,7 @@ listing:
   - id: staff
     categories: unnumbered
     contents:
-      - "staff/ongoing/"
-      - "staff/fixed/"
-      - "staff/casual/"
+      - "staff/"
     template: person.ejs
     sort: 
       - position

@@ -1,0 +1,6 @@
+---
+name: Ian Hunt
+email: ian.hunt@anu.edu.au
+position: Statistical Consultant
+rpweb: https://researchportalplus.anu.edu.au/en/persons/ian-hunt
+---
