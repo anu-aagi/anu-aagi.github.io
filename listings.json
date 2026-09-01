@@ -27,14 +27,16 @@
   {
     "listing": "/people/index.html",
     "items": [
-      "/people/staff/ongoing/emi-tanaka/index.html",
-      "/people/staff/ongoing/francis-hui/index.html",
-      "/people/staff/ongoing/alan-welsh/index.html",
-      "/people/staff/fixed/patrick-li/index.html",
-      "/people/staff/fixed/yidi-deng/index.html",
-      "/people/staff/casual/jenny-lin/index.html",
-      "/people/staff/fixed/gusti-rais/index.html",
-      "/people/alumni/fonti-kar/index.html"
+      "/people/staff/emi-tanaka/index.html",
+      "/people/staff/francis-hui/index.html",
+      "/people/staff/alan-welsh/index.html",
+      "/people/staff/patrick-li/index.html",
+      "/people/staff/jenny-lin/index.html",
+      "/people/staff/maeve-mcgillycuddy/index.html",
+      "/people/staff/gusti-rais/index.html",
+      "/people/staff/ian-hunt/index.html",
+      "/people/alumni/fonti-kar/index.html",
+      "/people/alumni/yidi-deng/index.html"
     ]
   },
   {
