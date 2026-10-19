@@ -26,6 +26,8 @@ format:
 
 [Software](/software/)
 
+[AAGIverse](https://aagi-aus.github.io/AAGIverse-shared-code/)
+
 [Contact](/contact/)
 
 :::
