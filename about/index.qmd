@@ -10,7 +10,11 @@ If you are part of ANU and would like to be involved (now or in future), please 
 
 ## Acknowledgement
 
-We gratefully acknowledge sponsorship by [Zulip](https://zulip.com/) for cloud hosting of our team chat.
+We gratefully acknowledge funding from the Grains Research and Development Corporation (GRDC) through the Analytics for the Australian Grains Industry (AAGI) initiative.
+
+![AAGI logo](aagi-logo.png){height="4em"} &emsp; ![GRDC logo](grdc-logo.png){height="4em"}
+
+We also gratefully acknowledge sponsorship by [Zulip](https://zulip.com/) for cloud hosting of our team chat.
 
 ![](zulip-icon-circle.svg){height="2em"}
 
