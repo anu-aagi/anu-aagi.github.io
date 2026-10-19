@@ -1,0 +1,39 @@
+```{=html}
+
+<div class="software-list">
+
+<% for (const pkg of items) { %>
+
+<div class="software-item">
+<div class="software-logo">
+<% if (pkg.image) { %>
+<img src="<%= pkg.image %>" alt="<%= pkg.name %> logo">
+<% } %>
+</div>
+<div class="software-body">
+<h3 class="software-name"><%= pkg.name %></h3>
+<p class="software-tags">
+<span class="badge text-bg-secondary"><%= pkg.language %></span>
+<% if (pkg.status) { %>
+<span class="badge text-bg-warning"><%= pkg.status %></span>
+<% } %>
+</p>
+<p class="software-title"><%= pkg.title %></p>
+<p><%= pkg.description %></p>
+<% if (pkg.install) { %>
+<pre class="software-install"><code><%= pkg.install %></code></pre>
+<% } %>
+<p class="software-links">
+<% if (pkg.website) { %>
+<a href="<%= pkg.website %>"><i class="bi bi-book"></i> Documentation</a>
+<% } %>
+<a href="https://github.com/<%= pkg.github %>"><i class="bi bi-github"></i> GitHub</a>
+</p>
+</div>
+</div>
+
+<% } %>
+
+</div>
+
+```

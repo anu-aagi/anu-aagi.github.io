@@ -30,6 +30,9 @@ website:
       - href: https://anu-aagi.github.io/education
         text: Education
         icon: pencil-fill
+      - href: software/index.qmd
+        text: Software
+        icon: box-seam
       - href: about/index.qmd
         text: About
         icon: info-circle-fill

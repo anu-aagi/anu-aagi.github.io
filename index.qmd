@@ -24,6 +24,8 @@ format:
 
 [Education](https://anu-aagi.github.io/education/)
 
+[Software](/software/)
+
 [Contact](/contact/)
 
 :::

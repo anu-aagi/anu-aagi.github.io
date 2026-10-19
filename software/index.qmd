@@ -1,0 +1,16 @@
+---
+title: Software
+listing:
+  - id: software
+    template: software.ejs
+    contents: software.yml
+    sort: false
+format:
+  html:
+    css: software.css
+---
+
+Open-source software developed by the ANU-AAGI team. You can find all our projects on [GitHub](https://github.com/anu-aagi).
+
+::: {#software}
+:::

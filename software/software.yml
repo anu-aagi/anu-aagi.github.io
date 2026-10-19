@@ -1,0 +1,48 @@
+- name: heritable
+  language: R
+  title: Heritability Estimation from Linear Mixed Models
+  description: >
+    Provides flexible estimation of broad- and narrow-sense heritability from linear mixed models fitted with asreml or lme4.
+    Implements commonly used estimators, including the Standard, Cullis, Oakey, Piepho, and Delta methods.
+    Supports complex model structures, marginal and environment-specific heritability for genotype-by-environment models, and confidence intervals based on parametric bootstrap.
+  image: heritable.png
+  install: install.packages("heritable")
+  website: https://anu-aagi.github.io/heritable/
+  github: anu-aagi/heritable
+- name: broom.asreml
+  language: R
+  title: Tidy Methods for ASReml-R Objects
+  description: >
+    Extracts, summarises, and tidies fitted asreml model objects into consistent, analysis-ready formats similar to those provided by broom and broom.mixed.
+    Provides convenient access to model coefficients, variance parameters, fitted values, residuals, predictions, and other commonly used model components.
+  image: broom.asreml.png
+  install: pak::pak("anu-aagi/broom.asreml")
+  github: anu-aagi/broom.asreml
+- name: torch-openreml
+  language: Python
+  status: Experimental
+  title: PyTorch-based AI-REML Estimation for Linear Mixed Models
+  description: >
+    Fits linear mixed-effects models using the Average Information REML (AI-REML) algorithm on a PyTorch backend that runs on CPU, GPU, and other available accelerators.
+    Covariance structures are specified through a modular system of matrices and operators, with automatic or manually specified gradients.
+  image: torch-openreml.png
+  install: pip install git+https://github.com/anu-aagi/torch-openreml.git
+  website: https://torch-openreml.patrickli.org/
+  github: anu-aagi/torch-openreml
+- name: openreml
+  language: R
+  status: Experimental
+  title: R Bindings for torch-openreml
+  description: >
+    R bindings for torch-openreml, a PyTorch-based AI-REML solver for linear mixed models with composable covariance structures.
+  image: openreml.png
+  install: remotes::install_github("anu-aagi/openreml")
+  github: anu-aagi/openreml
+- name: cropscan
+  language: R
+  status: Early development
+  title: Scanning Crop Field Experiments
+  description: >
+    Initial data analysis for crop field experiments.
+  install: pak::pak("anu-aagi/cropscan")
+  github: anu-aagi/cropscan
