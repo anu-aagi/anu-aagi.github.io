@@ -2,8 +2,11 @@
 title: News & Events
 listing:
   - id: news
-    contents: 
-     - items/
+    contents:
+     - posts/
+    sort:
+    - "date desc"
+    feed: true
 ---
 
 ::: {#news}

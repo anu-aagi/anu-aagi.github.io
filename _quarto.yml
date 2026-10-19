@@ -38,6 +38,8 @@ website:
         text: Contact
         icon: envelope-fill
     right:
+      - icon: rss
+        href: news/index.xml
       - icon: github
         href: https://github.com/anu-aagi
 format:
