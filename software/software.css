@@ -1,0 +1,53 @@
+.software-item {
+  display: flex;
+  gap: 1.5em;
+  align-items: flex-start;
+  padding: 1.5em 0;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.software-item:last-child {
+  border-bottom: none;
+}
+
+.software-logo {
+  flex: 0 0 120px;
+  text-align: center;
+}
+
+.software-logo img {
+  max-width: 120px;
+  max-height: 140px;
+}
+
+.software-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.software-name {
+  margin-top: 0;
+  font-family: monospace;
+}
+
+.software-title {
+  font-weight: bold;
+}
+
+.software-install {
+  overflow-x: auto;
+}
+
+.software-links a {
+  margin-right: 1.5em;
+}
+
+@media (max-width: 576px) {
+  .software-item {
+    flex-direction: column;
+    gap: 0.5em;
+  }
+  .software-logo {
+    flex-basis: auto;
+  }
+}

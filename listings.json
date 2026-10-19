@@ -1,18 +1,24 @@
 [
   {
-    "listing": "/people/index.html",
+    "listing": "/news/index.html",
     "items": [
-      "/people/staff/emi-tanaka/index.html",
-      "/people/staff/francis-hui/index.html",
-      "/people/staff/alan-welsh/index.html",
-      "/people/staff/patrick-li/index.html",
-      "/people/staff/jenny-lin/index.html",
-      "/people/staff/andrew-bowerman/index.html",
-      "/people/staff/maeve-mcgillycuddy/index.html",
-      "/people/staff/gusti-rais/index.html",
-      "/people/staff/ian-hunt/index.html",
-      "/people/alumni/fonti-kar/index.html",
-      "/people/alumni/yidi-deng/index.html"
+      "/news/posts/2026-10-19/index.html",
+      "/news/posts/2026-09-02/index.html",
+      "/news/posts/2026-09-01/index.html",
+      "/news/posts/2026-08-14/index.html",
+      "/news/posts/2026-04-22/index.html",
+      "/news/posts/2025-12-17/index.html",
+      "/news/posts/2026-01-09/index.html",
+      "/news/posts/2025-12-04/index.html",
+      "/news/posts/2025-12-02/index.html",
+      "/news/posts/2025-09-17/index.html",
+      "/news/posts/2025-09-03/index.html",
+      "/news/posts/2025-08-24/index.html",
+      "/news/posts/2025-07-14/index.html",
+      "/news/posts/2025-07-11/index.html",
+      "/news/posts/2025-06-04/index.html",
+      "/news/posts/2025-05-05/index.html",
+      "/news/posts/2024-12-19/index.html"
     ]
   },
   {
@@ -38,8 +44,24 @@
     ]
   },
   {
-    "listing": "/news/index.html",
+    "listing": "/software/index.html",
     "items": []
+  },
+  {
+    "listing": "/people/index.html",
+    "items": [
+      "/people/staff/emi-tanaka/index.html",
+      "/people/staff/francis-hui/index.html",
+      "/people/staff/alan-welsh/index.html",
+      "/people/staff/patrick-li/index.html",
+      "/people/staff/jenny-lin/index.html",
+      "/people/staff/andrew-bowerman/index.html",
+      "/people/staff/maeve-mcgillycuddy/index.html",
+      "/people/staff/gusti-rais/index.html",
+      "/people/staff/ian-hunt/index.html",
+      "/people/alumni/fonti-kar/index.html",
+      "/people/alumni/yidi-deng/index.html"
+    ]
   },
   {
     "listing": "/events/index.html",
