@@ -2,5 +2,6 @@
 name: Gusti F. Rais
 position: Research Software Engineer
 email: GustiFaturahman.Rais@anu.edu.au
+github: goosetea04
 image: gusti.jpg
 ---

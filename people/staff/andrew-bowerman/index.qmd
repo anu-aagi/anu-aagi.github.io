@@ -1,0 +1,8 @@
+---
+name: Andrew Bowerman
+position: Research Fellow
+email: andrew.bowerman@anu.edu.au
+github: afb206
+rpweb: https://researchportalplus.anu.edu.au/en/persons/andrew-bowerman
+image: andrew-bowerman.jpg
+---

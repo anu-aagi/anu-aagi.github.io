@@ -3,6 +3,7 @@ name: Emi Tanaka
 email: emi.tanaka@anu.edu.au
 position: ANU-AAGI lead
 web: https://emitanaka.org/
+github: emitanaka
 image: emi-photo.png
 bluesky: emitanaka.org
 ---
