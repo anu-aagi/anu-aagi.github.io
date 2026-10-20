@@ -443,3 +443,20 @@ body:has(.home-hero) {
   .talk-when .talk-day { font-size: 1.6rem; }
   .talk-when .talk-month { margin-top: 0; }
 }
+
+.news-hidden { display: none !important; }
+
+.more-news {
+  margin: 2rem 0 1rem;
+  text-align: center;
+  a {
+    display: inline-block;
+    padding: 0.65rem 1.4rem;
+    border: 1px solid $paddock;
+    border-radius: 2px;
+    color: $paddock;
+    font-weight: 600;
+    text-decoration: none;
+    &:hover, &:focus-visible { background: $paddock; color: #FFFFFF; }
+  }
+}

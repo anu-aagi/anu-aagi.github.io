@@ -6,7 +6,6 @@ listing:
     contents: news/posts/
     type: grid
     grid-columns: 3
-    max-items: 6
     image-height: 190px
     fields: [image, date, title, description]
     sort:
@@ -96,3 +95,42 @@ format:
 
 ::: {#news}
 :::
+
+::: {.more-news}
+[More news](/news/)
+:::
+
+```{=html}
+<script>
+(() => {
+  const listing = document.getElementById("listing-news");
+  const more = document.querySelector(".more-news");
+  if (!listing || !more || !("IntersectionObserver" in window)) return;
+  const items = Array.from(listing.querySelectorAll(".g-col-1"));
+  const batch = 6;
+  let shown = batch;
+  const update = () => {
+    items.forEach((item, i) => item.classList.toggle("news-hidden", i >= shown));
+    if (shown >= items.length) {
+      observer.disconnect();
+      more.remove();
+    }
+  };
+  const showMore = () => {
+    shown += batch;
+    update();
+    if (more.isConnected) {
+      observer.unobserve(more);
+      observer.observe(more);
+    }
+  };
+  const observer = new IntersectionObserver((entries) => {
+    if (entries.some((e) => e.isIntersecting)) showMore();
+  }, { rootMargin: "300px 0px" });
+  const link = more.querySelector("a");
+  link.addEventListener("click", (e) => { e.preventDefault(); showMore(); });
+  update();
+  if (more.isConnected) observer.observe(more);
+})();
+</script>
+```

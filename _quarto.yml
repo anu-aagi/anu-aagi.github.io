@@ -1,5 +1,6 @@
 project:
   type: website
+  post-render: assets/lazy-thumbnails.py
 
 website:
   title: "ANU AAGI"
