@@ -2,28 +2,22 @@ color:
   palette:
     anu-gold-tint: "#F5EDDE"
     anu-gold: "#BE830E"
+    paddock: "#163024"
+    wheat: "#E6CB85"
+    stone: "#5C6461"
   background: white
-  foreground: black
+  foreground: "#1D2421"
   primary: anu-gold
-  secondary: "#707073"
+  secondary: stone
   tertiary: "#C2C2C4"
   success: green
   info: teal
   warning: orange
-  danger: burgundy
+  danger: "#7A1F2B"
   light: white
-  dark: "#404041"
+  dark: paddock
 
 logo: 
   small: images/logo-small.png
   medium: images/logo-medium.png
   large: images/logo-large.png
-
-typography:
-  fonts:
-    - family: Jura
-      source: google
-    - family: Roboto
-      source: google
-  base: Roboto
-  headings: Jura

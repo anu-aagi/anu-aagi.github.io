@@ -1,46 +1,102 @@
 ---
-title: "Analytics for the Australian Grains Industry"
-subtitle: "Australian National University"
+pagetitle: "ANU AAGI | Analytics for the Australian Grains Industry"
+description: "Statistical methods and research software for the Australian grains industry, from the Australian National University."
 listing:
   - id: news
     contents: news/posts/
+    type: grid
+    grid-columns: 3
+    max-items: 6
+    image-height: 190px
+    fields: [image, date, title, description]
     sort:
     - "date desc"
-format: 
+format:
   html:
     css: /assets/styles.css
 ---
 
+```{=html}
+<section class="home-hero column-screen">
+  <div class="home-hero-inner">
+    <div>
+      <p class="affil">Australian National University</p>
+      <h1>Analytics for the Australian Grains Industry</h1>
+      <p class="lede">Statistical methods and research software for field trials, plant phenomics and the grains research community.</p>
+      <div class="hero-actions">
+        <a class="primary" href="/people/">Meet the team</a>
+        <a href="/software/">Browse our software</a>
+      </div>
+    </div>
+    <figure class="trial-figure">
+      <svg id="trial-grid" role="img" aria-label="A field trial of 240 plots in four blocks, shaded by a simulated spatial yield trend"></svg>
+    </figure>
+  </div>
+</section>
 
+<script>
+(() => {
+  const svg = document.getElementById("trial-grid");
+  if (!svg) return;
+  const rows = 10, cols = 24, block = 6;
+  const w = 18, h = 30, gap = 3, blockGap = 10;
+  const stops = [[36, 80, 59], [126, 143, 62], [230, 203, 133], [190, 131, 14]];
+  let seed = 8677;
+  const rand = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+  const colour = (t) => {
+    t = Math.min(0.999, Math.max(0, t)) * (stops.length - 1);
+    const i = Math.floor(t), f = t - i, a = stops[i], b = stops[i + 1];
+    return `rgb(${a.map((v, k) => Math.round(v + (b[k] - v) * f)).join(",")})`;
+  };
+  const width = cols * (w + gap) - gap + (cols / block - 1) * blockGap;
+  const height = rows * (h + gap) - gap;
+  svg.setAttribute("viewBox", `0 0 ${width} ${height}`);
+  const ns = "http://www.w3.org/2000/svg";
+  for (let c = 0; c < cols; c++) {
+    for (let r = 0; r < rows; r++) {
+      const trend = 0.5 + 0.28 * Math.sin(c / 4.2) * Math.cos(r / 3.5)
+        + 0.18 * Math.cos((c + r) / 6) - 0.35 * Math.exp(-((c - 17) ** 2 + (r - 2) ** 2) / 12);
+      const noise = (rand() + rand() + rand() - 1.5) * 0.18;
+      const rect = document.createElementNS(ns, "rect");
+      rect.setAttribute("x", c * (w + gap) + Math.floor(c / block) * blockGap);
+      rect.setAttribute("y", r * (h + gap));
+      rect.setAttribute("width", w);
+      rect.setAttribute("height", h);
+      rect.setAttribute("rx", 1.5);
+      rect.setAttribute("fill", colour(trend + noise));
+      rect.style.animationDelay = `${c * 35 + r * 12}ms`;
+      svg.appendChild(rect);
+    }
+  }
+})();
+</script>
+```
 
+::: {.plot-links}
 
+[[Team]{.plot-name}[Staff, students and external collaborators]{.plot-desc}](/people/)
 
-:::{.list .grid .quarto-listing-cols-3 .hover-gold-tint}
+[[About]{.plot-name}[Our part in AAGI and the people who fund it]{.plot-desc}](/about/)
 
+[[Education]{.plot-name}[Courses and training materials]{.plot-desc}](https://anu-aagi.github.io/education/)
 
-[People](/people/)
+[[Software]{.plot-name}[Open-source R packages built by the team]{.plot-desc}](/software/)
 
-[About](/about/)
+[[AAGIverse]{.plot-name}[Code shared across the AAGI network]{.plot-desc}](https://aagi-aus.github.io/AAGIverse-shared-code/)
 
-[Education](https://anu-aagi.github.io/education/)
-
-[Software](/software/)
-
-[AAGIverse](https://aagi-aus.github.io/AAGIverse-shared-code/)
-
-[Contact](/contact/)
+[[Contact]{.plot-name}[Email, Zulip and where to find us]{.plot-desc}](/contact/)
 
 :::
 
-
-<br>
-
+::: {.section-head}
 ## News
 
-::: {#news}
-
-
+[All news](/news/)
 :::
 
+::: {#news}
+:::
+
+## Get seminar notices
 
 <iframe width="100%" height="900px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=XHJ941yrJEaa5fBTPkhkN8f_OhednjZDplTOe4g095JUMVdBV1JDRTVBMU9NNzZKNVY0STFaUkVWSSQlQCN0PWcu&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>

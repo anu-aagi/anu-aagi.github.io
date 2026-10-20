@@ -46,7 +46,7 @@ website:
         href: https://github.com/anu-aagi
 format:
   html:
-    theme: cosmo
+    theme: [cosmo, brand, assets/theme.scss]
     title-block-banner: true
 
 
