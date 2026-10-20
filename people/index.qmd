@@ -1,8 +1,8 @@
 ---
-title: "{{< fa solid users >}} Meet the team"
+title: "Meet the team"
+subtitle: Statisticians, research software engineers and students working on analytics for the grains industry
 listing:
   - id: staff
-    categories: unnumbered
     contents:
       - "staff/"
     template: person.ejs
@@ -10,7 +10,6 @@ listing:
       - position
       - name
   - id: alumni
-    categories: unnumbered
     contents:
       - "alumni/"
     template: alumni.ejs
@@ -25,7 +24,6 @@ listing:
 format:
   html:
     css: people.css
-page-layout: full
 comments: false
 ---
 
@@ -42,10 +40,14 @@ comments: false
 
 ## External collaborators
 
-- Scott Chapman (UQ)
-- Mark Gibberd (Curtin)
-- Adam Sparks (Curtin)
-- Julian Taylor (Adelaide)
+```{=html}
+<ul class="roster roster-collab">
+  <li><span class="roster-name">Scott Chapman</span><span class="roster-detail">University of Queensland</span></li>
+  <li><span class="roster-name">Mark Gibberd</span><span class="roster-detail">Curtin University</span></li>
+  <li><span class="roster-name">Adam Sparks</span><span class="roster-detail">Curtin University</span></li>
+  <li><span class="roster-name">Julian Taylor</span><span class="roster-detail">University of Adelaide</span></li>
+</ul>
+```
 
 ## Alumni
 

@@ -1,20 +1,35 @@
 ---
 title: Contact
+subtitle: Questions, collaborations and joining the team
 ---
 
-## Email
+We are interested in consolidating analytical expertise to solve agricultural problems across ANU. If you would like to be involved, now or in future, get in touch.
 
-Dr Emi Tanaka (ANU-AAGI lead) <i class="fas fa-envelope"></i> emi.tanaka@anu.edu.au
+::: {.plot-links .two-up}
 
-## Zulip
+[[Email the ANU-AAGI lead]{.plot-name}[Dr Emi Tanaka, emi.tanaka@anu.edu.au]{.plot-desc}](mailto:emi.tanaka@anu.edu.au)
 
-The ANU-AAGI team communicate via Zulip (an open-source chat tool). If you are part of ANU and would like to join this Zulip channel, please contact the ANU-AAGI lead. We are interested in consolidating analytical expertise to solve agricultural problems across ANU.
+[[Chat with us on Zulip]{.plot-name}[anu-aagi.zulipchat.com. ANU staff and students can ask the ANU-AAGI lead for an invite.]{.plot-desc}](https://anu-aagi.zulipchat.com/)
 
-<https://anu-aagi.zulipchat.com/>
-
+:::
 
 ## Location
 
-The administrative home of BDSI and its staff is located in Building #46 - Robertson.
+::: {.contact-location}
 
-<div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;"><div id="embed-ded-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=r+n+robsertson+canberra&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="googlemaps-made" href="https://kbj9qpmy.com/bp" id="authmaps-data">Internet Provider</a><style>#embed-ded-map-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}</style></div>
+::: {.contact-address}
+The ANU-AAGI team is based in the **CBE Building**, the home of the [Statistics group at ANU](https://rsfas.anu.edu.au/academic-areas/statistics).
+
+CBE Building 26C<br>
+Kingsley Street<br>
+Australian National University<br>
+Acton ACT 2600
+
+[Open in the ANU campus map](https://www.anu.edu.au/maps/anu-college-of-business-and-economics)
+:::
+
+```{=html}
+<iframe class="contact-map" title="Map showing the CBE Building on the ANU campus" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=ANU+College+of+Business+and+Economics,+Kingsley+St,+Acton+ACT+2600&z=16&output=embed"></iframe>
+```
+
+:::

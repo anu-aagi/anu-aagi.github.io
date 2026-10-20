@@ -1,23 +1,48 @@
 ---
 title: Events
-listing: 
+subtitle: ANU Biometrics Seminar Series
+listing:
   - id: seminar
     template: seminar.ejs
     contents: seminar-list.yml
+    sort: "date desc"
 ---
 
-## ANU Biometrics Seminar Series
+::: {.series-intro}
 
-The series aims to foster knowledge exchange at the intersection of biology, statistics, 
-computing, and data science. We hope to use this as a regular platform for the community to share their work, spark meaningful discussions and cultivate interdisciplinary collaborations. To facilitate participation from across campus, the seminars will primarily be held online via Zoom. If you are interested in organising or joining a watch party, please get in touch.
+::: {.series-text}
+The series aims to foster knowledge exchange at the intersection of biology, statistics, computing, and data science. We hope to use this as a regular platform for the community to share their work, spark meaningful discussions and cultivate interdisciplinary collaborations.
 
-If you would like to receive notice about the seminar, please complete the short form [here](https://forms.office.com/Pages/ResponsePage.aspx?id=XHJ941yrJEaa5fBTPkhkN8f_OhednjZDplTOe4g095JUMVdBV1JDRTVBMU9NNzZKNVY0STFaUkVWSSQlQCN0PWcu).
+To facilitate participation from across campus, the seminars will primarily be held online via Zoom. If you are interested in organising or joining a watch party, please [get in touch](/contact/).
+:::
 
+::: {.series-facts}
+Where
+: Online via Zoom
 
-This series is organised by **Dr Patrick Weihao Li** ✨
+Watch parties
+: Get in touch to organise or join one
 
+Organiser
+: Dr Patrick Weihao Li
 
-::: {#seminar}
+[Get seminar notices](https://forms.office.com/Pages/ResponsePage.aspx?id=XHJ941yrJEaa5fBTPkhkN8f_OhednjZDplTOe4g095JUMVdBV1JDRTVBMU9NNzZKNVY0STFaUkVWSSQlQCN0PWcu){.notice-btn}
+:::
 
 :::
 
+## Talks
+
+::: {#seminar}
+:::
+
+```{=html}
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const today = new Date().toISOString().slice(0, 10);
+  document.querySelectorAll(".talk[data-date]").forEach((talk) => {
+    if (talk.dataset.date >= today) talk.classList.add("is-upcoming");
+  });
+});
+</script>
+```

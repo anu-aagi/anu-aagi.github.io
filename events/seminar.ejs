@@ -1,17 +1,33 @@
-<% for (let talk of items) { %>
-<h3><%- talk.date %></h3>
-<b style="font-size:1.3em;"><%- talk.title %></b><br>
-<i style="font-size:1.3em;"><%- talk.speaker %> (<%- talk.affiliation %>)</i>
+::: {.talk-list}
+
+<% for (const talk of items) { const d = new Date(talk.date); %>
+::: {.talk data-date="<%= [d.getFullYear(), String(d.getMonth() + 1).padStart(2, '0'), String(d.getDate()).padStart(2, '0')].join('-') %>"}
+
+::: {.talk-when}
+[<%= d.getDate() %>]{.talk-day}
+[<%= d.toLocaleString('en-AU', { month: 'short' }) %> <%= d.getFullYear() %>]{.talk-month}
+<% if (talk.time) { %>[<%= talk.time %>]{.talk-time}<% } %>
+:::
+
+::: {.talk-body}
+[<%- talk.title %>]{.talk-title}
+
+[<%- talk.speaker %>]{.talk-speaker}, [<%- talk.affiliation %>]{.talk-affil}
 
 <details>
-  <summary>Show Details</summary>
+<summary>Abstract<% if (talk.bio) { %> and speaker bio<% } %></summary>
 
 <%- talk.abstract %>
 
 <% if (talk.bio) { %>
-**Bio:**  
+**About the speaker**
 <%- talk.bio %>
 <% } %>
 
 </details>
+:::
+
+:::
 <% } %>
+
+:::

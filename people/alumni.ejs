@@ -1,11 +1,11 @@
-
-
 ```{=html}
-
-<ul >
+<ul class="roster roster-alumni">
 <% for (const item of items) { %>
-  <li <%= metadataAttrs(item) %>><%= item.name %> (<%= item.period %>)</li>
+  <li <%= metadataAttrs(item) %>>
+    <span class="roster-name"><%= item.name %></span>
+    <span class="roster-detail"><%= item.position %></span>
+    <span class="roster-period"><%= item.period %></span>
+  </li>
 <% } %>
 </ul>
-
 ```

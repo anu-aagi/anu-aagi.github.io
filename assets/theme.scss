@@ -297,3 +297,149 @@ body:has(.home-hero) {
   .plot-links { grid-template-columns: minmax(0, 1fr); }
   .trial-figure figcaption { flex-direction: column; gap: 0.5rem; }
 }
+
+/* Contact page ------------------------------------------------------ */
+
+.plot-links.two-up {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 2rem 0 3rem;
+}
+
+.contact-location {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+  gap: 2rem;
+  align-items: start;
+  margin-top: 1rem;
+}
+
+.contact-address p:first-child { margin-top: 0; }
+
+.contact-map {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border: 1px solid $rule;
+  border-bottom: 3px solid $gold;
+}
+
+@media (max-width: 767.98px) {
+  .plot-links.two-up,
+  .contact-location { grid-template-columns: minmax(0, 1fr); }
+}
+
+/* Events page ------------------------------------------------------- */
+
+.series-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+  gap: 2.5rem;
+  align-items: start;
+  .series-text p:first-child { margin-top: 0; }
+}
+
+.series-facts {
+  background: $chaff;
+  border-top: 3px solid $gold;
+  padding: 1.25rem 1.5rem 1.5rem;
+  dl { margin: 0 0 1.25rem; }
+  dt {
+    font-weight: 600;
+    color: $stone;
+    font-size: 0.9rem;
+  }
+  dd {
+    margin: 0 0 0.75rem;
+    color: $paddock;
+    font-weight: 500;
+  }
+  p:last-child { margin: 0; }
+}
+
+.notice-btn {
+  display: inline-block;
+  background: $paddock;
+  color: #FFFFFF !important;
+  padding: 0.6rem 1.1rem;
+  border-radius: 2px;
+  font-weight: 600;
+  text-decoration: none;
+  &:hover { background: $paddock-2; }
+}
+
+.talk-list {
+  margin-top: 1.5rem;
+  border-left: 2px solid $rule;
+}
+
+.talk {
+  display: grid;
+  grid-template-columns: 7.5rem minmax(0, 1fr);
+  gap: 1.5rem;
+  padding: 1.5rem 0 1.75rem 1.5rem;
+  position: relative;
+  & + .talk { border-top: 1px solid $rule; }
+  &::before {
+    content: "";
+    position: absolute;
+    left: -7px;
+    top: 1.9rem;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    border: 2px solid $stone;
+  }
+  &.is-upcoming::before { background: $gold; border-color: $gold; }
+  > div > p { margin: 0; }
+}
+
+.talk-when {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+  font-variant-numeric: tabular-nums;
+  p { display: flex; flex-direction: column; }
+  .talk-day {
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-stretch: 118%;
+    color: $paddock;
+    line-height: 1;
+  }
+  .talk-month { color: $paddock; font-weight: 600; margin-top: 0.25rem; }
+  .talk-time { color: $stone; font-size: 0.95rem; }
+}
+
+.talk.is-upcoming .talk-when .talk-time::after {
+  content: "Upcoming";
+  display: block;
+  margin-top: 0.5rem;
+  color: $gold-ink;
+  font-weight: 600;
+}
+
+.talk-body {
+  max-width: 70ch;
+  .talk-title {
+    display: block;
+    font-size: 1.3rem;
+    font-weight: 650;
+    font-stretch: 112%;
+    line-height: 1.3;
+    color: $paddock;
+    margin-bottom: 0.5rem;
+  }
+  .talk-speaker { font-weight: 600; }
+  .talk-affil { color: $stone; }
+  details { margin-top: 0.85rem; }
+  details[open] > summary { margin-bottom: 0.75rem; }
+}
+
+@media (max-width: 767.98px) {
+  .series-intro { grid-template-columns: minmax(0, 1fr); gap: 1.5rem; }
+  .talk { grid-template-columns: minmax(0, 1fr); gap: 0.5rem; padding-left: 1.25rem; }
+  .talk-when p { flex-direction: row; align-items: baseline; gap: 0.5rem; flex-wrap: wrap; }
+  .talk-when .talk-day { font-size: 1.6rem; }
+  .talk-when .talk-month { margin-top: 0; }
+}
