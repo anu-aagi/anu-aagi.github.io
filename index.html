@@ -2,12 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.12">
+<meta name="generator" content="quarto-1.8.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Statistical methods and research software for the Australian grains industry, from the Australian National University.">
 
-<title>Analytics for the Australian Grains Industry – ANU AAGI</title>
+<title>ANU AAGI | Analytics for the Australian Grains Industry – ANU AAGI</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -40,14 +41,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-cdaacfc258cb6f151192107f105ac881.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-a555615fda6662b620e1ae2330e503bf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-cdaacfc258cb6f151192107f105ac881.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e2bfb91f22ac85a137d9fb94d6784b0c.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b9822b08734754b360f034ba2034b1d3.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e2bfb91f22ac85a137d9fb94d6784b0c.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-ae9d96a476b72b1b165e8f9d7159128b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-ae9d96a476b72b1b165e8f9d7159128b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-ae9d96a476b72b1b165e8f9d7159128b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-9bc9537bb2a306af97ce3741863472f7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-420fa8857ee2244748d8ba0d0d5f6b64.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-9bc9537bb2a306af97ce3741863472f7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -85,9 +86,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-date','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -136,9 +137,8 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="./assets/styles.css">
-<meta property="og:title" content="Analytics for the Australian Grains Industry – ANU AAGI">
-<meta property="og:description" content="Australian National University">
-<meta property="og:image" content="https://anu-aagi.github.io/news/posts/2026-01-09/symposium.jpeg">
+<meta property="og:title" content="ANU AAGI | Analytics for the Australian Grains Industry">
+<meta property="og:description" content="Statistical methods and research software for the Australian grains industry, from the Australian National University.">
 <meta property="og:site_name" content="ANU AAGI">
 </head>
 
@@ -218,451 +218,202 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">Analytics for the Australian Grains Industry</h1>
-            <p class="subtitle lead">Australian National University</p>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block"></header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
 
 
 
 
+<section class="home-hero column-screen">
+  <div class="home-hero-inner">
+    <div>
+      <p class="affil">Australian National University</p>
+      <h1>Analytics for the Australian Grains Industry</h1>
+      <p class="lede">Statistical methods and research software for field trials, plant phenomics and the grains research community.</p>
+      <div class="hero-actions">
+        <a class="primary" href="./people/">Meet the team</a>
+        <a href="./software/">Browse our software</a>
+      </div>
+    </div>
+    <figure class="trial-figure figure">
+      <svg id="trial-grid" role="img" aria-label="A field trial of 240 plots in four blocks, shaded by a simulated spatial yield trend"></svg>
+    </figure>
+  </div>
+</section>
 
-<div class="list grid quarto-listing-cols-3 hover-gold-tint">
-<p><a href="./people/">People</a></p>
-<p><a href="./about/">About</a></p>
-<p><a href="https://anu-aagi.github.io/education/">Education</a></p>
-<p><a href="./software/">Software</a></p>
-<p><a href="https://aagi-aus.github.io/AAGIverse-shared-code/">AAGIverse</a></p>
-<p><a href="./contact/">Contact</a></p>
+<script>
+(() => {
+  const svg = document.getElementById("trial-grid");
+  if (!svg) return;
+  const rows = 10, cols = 24, block = 6;
+  const w = 18, h = 30, gap = 3, blockGap = 10;
+  const stops = [[36, 80, 59], [126, 143, 62], [230, 203, 133], [190, 131, 14]];
+  let seed = 8677;
+  const rand = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+  const colour = (t) => {
+    t = Math.min(0.999, Math.max(0, t)) * (stops.length - 1);
+    const i = Math.floor(t), f = t - i, a = stops[i], b = stops[i + 1];
+    return `rgb(${a.map((v, k) => Math.round(v + (b[k] - v) * f)).join(",")})`;
+  };
+  const width = cols * (w + gap) - gap + (cols / block - 1) * blockGap;
+  const height = rows * (h + gap) - gap;
+  svg.setAttribute("viewBox", `0 0 ${width} ${height}`);
+  const ns = "http://www.w3.org/2000/svg";
+  for (let c = 0; c < cols; c++) {
+    for (let r = 0; r < rows; r++) {
+      const trend = 0.5 + 0.28 * Math.sin(c / 4.2) * Math.cos(r / 3.5)
+        + 0.18 * Math.cos((c + r) / 6) - 0.35 * Math.exp(-((c - 17) ** 2 + (r - 2) ** 2) / 12);
+      const noise = (rand() + rand() + rand() - 1.5) * 0.18;
+      const rect = document.createElementNS(ns, "rect");
+      rect.setAttribute("x", c * (w + gap) + Math.floor(c / block) * blockGap);
+      rect.setAttribute("y", r * (h + gap));
+      rect.setAttribute("width", w);
+      rect.setAttribute("height", h);
+      rect.setAttribute("rx", 1.5);
+      rect.setAttribute("fill", colour(trend + noise));
+      rect.style.animationDelay = `${c * 35 + r * 12}ms`;
+      svg.appendChild(rect);
+    }
+  }
+})();
+</script>
+<div class="plot-links">
+<p><a href="./people/"><span class="plot-name">Team</span><span class="plot-desc">Staff, students and external collaborators</span></a></p>
+<p><a href="./about/"><span class="plot-name">About</span><span class="plot-desc">Our part in AAGI and the people who fund it</span></a></p>
+<p><a href="https://anu-aagi.github.io/education/"><span class="plot-name">Education</span><span class="plot-desc">Courses and training materials</span></a></p>
+<p><a href="./software/"><span class="plot-name">Software</span><span class="plot-desc">Open-source R packages built by the team</span></a></p>
+<p><a href="https://aagi-aus.github.io/AAGIverse-shared-code/"><span class="plot-name">AAGIverse</span><span class="plot-desc">Code shared across the AAGI network</span></a></p>
+<p><a href="./contact/"><span class="plot-name">Contact</span><span class="plot-desc">Email, Zulip and where to find us</span></a></p>
 </div>
-<p><br></p>
-<section id="news" class="level2">
+<section id="news" class="level2 section-head">
 <h2 class="anchored" data-anchor-id="news">News</h2>
-<div id="listing-news" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1792328400000" data-listing-file-modified-sort="1792400648157" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="82">
-<div class="thumbnail"><a href="./news/posts/2026-10-19/index.html" class="no-external">
-
-<p class="card-img-top"><img src="news/posts/2026-10-19/pizza.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./news/posts/2026-10-19/index.html" class="no-external">Pizza, safety and a warm welcome to Andrew!</a>
-</h3>
-<div class="delink listing-description"><a href="./news/posts/2026-10-19/index.html" class="no-external">
+<p><a href="./news/">All news</a></p>
+</section>
+<div id="listing-news" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1792328400000" data-listing-file-modified-sort="1792392755409" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="82">
+<a href="./news/posts/2026-10-19/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="news/posts/2026-10-19/pizza.jpg" style="height: 190px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Pizza, safety and a warm welcome to Andrew!
+</h5>
+<div class="card-text listing-description delink">
 Gusti was successful in receiving a Safe Work Grant, which funded a pizza gathering for the ANU AAGI team 🍕 It was a great chance for everyone to step away from their…
-</a></div>
 </div>
-<div class="metadata">
-<a href="./news/posts/2026-10-19/index.html" class="no-external">
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 Oct 19, 2026
 </div>
-</a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1788271200000" data-listing-file-modified-sort="1788301183026" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="80">
-<div class="thumbnail"><a href="./news/posts/2026-09-02/index.html" class="no-external">
-
-<p class="card-img-top"><img src="news/posts/2026-09-02/maeve.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./news/posts/2026-09-02/index.html" class="no-external">Welcome to Maeve!</a>
-</h3>
-<div class="delink listing-description"><a href="./news/posts/2026-09-02/index.html" class="no-external">
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-date-sort="1788271200000" data-listing-file-modified-sort="1788247180276" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="80">
+<a href="./news/posts/2026-09-02/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="news/posts/2026-09-02/maeve.jpg" style="height: 190px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Welcome to Maeve!
+</h5>
+<div class="card-text listing-description delink">
 We are delighted that Maeve has joined the ANU AAGI team 😊 Maeve developed the reduced rank (or better known as factor analytic) covariance structure in the <code>glmmTMB</code> R…
-</a></div>
 </div>
-<div class="metadata">
-<a href="./news/posts/2026-09-02/index.html" class="no-external">
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 Sep 2, 2026
 </div>
-</a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1788184800000" data-listing-file-modified-sort="1788244705000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="456">
-<div class="thumbnail"><a href="./news/posts/2026-09-01/index.html" class="no-external">
-
-<p class="card-img-top"><img src="news/posts/2026-09-01/Opening.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./news/posts/2026-09-01/index.html" class="no-external">ANU-Australian Plant Phenomics Network Facility Tour</a>
-</h3>
-<div class="delink listing-description"><a href="./news/posts/2026-09-01/index.html" class="no-external">
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-date-sort="1788184800000" data-listing-file-modified-sort="1788244776752" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="456">
+<a href="./news/posts/2026-09-01/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="news/posts/2026-09-01/Opening.jpg" style="height: 190px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+ANU-Australian Plant Phenomics Network Facility Tour
+</h5>
+<div class="card-text listing-description delink">
 On the 12th of August 2026, The ANU-APPN (Australian Plant Phenomics Network) hosted a facility tour of its faculties at the ANU Research School of Biology. Our tour group…
-</a></div>
 </div>
-<div class="metadata">
-<a href="./news/posts/2026-09-01/index.html" class="no-external">
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 Sep 1, 2026
 </div>
-<div class="listing-author">
-Gusti F. Rais
-</div>
-</a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1786629600000" data-listing-file-modified-sort="1786705026134" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="60">
-<div class="thumbnail"><a href="./news/posts/2026-08-14/index.html" class="no-external">
-
-<p class="card-img-top"><img src="news/posts/2026-08-14/gusti-at-office.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./news/posts/2026-08-14/index.html" class="no-external">Welcome to Gusti!</a>
-</h3>
-<div class="delink listing-description"><a href="./news/posts/2026-08-14/index.html" class="no-external">
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-date-sort="1786629600000" data-listing-file-modified-sort="1786705026000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="60">
+<a href="./news/posts/2026-08-14/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="news/posts/2026-08-14/gusti-at-office.jpg" style="height: 190px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Welcome to Gusti!
+</h5>
+<div class="card-text listing-description delink">
 We are delighted to welcome Gusti to the team. Despite his young age, Gusti has already demonstrated impressive professionalism, independence, and expertise in computing…
-</a></div>
 </div>
-<div class="metadata">
-<a href="./news/posts/2026-08-14/index.html" class="no-external">
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 Aug 14, 2026
 </div>
-</a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1776780000000" data-listing-file-modified-sort="1776858631860" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="142">
-<div class="thumbnail"><a href="./news/posts/2026-04-22/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./news/posts/2026-04-22/index.html" class="no-external">Job alert 📢 Seeking postdoc and research software engineer</a>
-</h3>
-<div class="delink listing-description"><a href="./news/posts/2026-04-22/index.html" class="no-external">
+</div></a>
+</div>
+<div class="g-col-1" data-index="4" data-listing-date-sort="1776780000000" data-listing-file-modified-sort="1776858631000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="142">
+<a href="./news/posts/2026-04-22/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 190px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Job alert 📢 Seeking postdoc and research software engineer
+</h5>
+<div class="card-text listing-description delink">
 We are looking for a:
-</a></div>
 </div>
-<div class="metadata">
-<a href="./news/posts/2026-04-22/index.html" class="no-external">
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 Apr 22, 2026
 </div>
-<div class="listing-author">
-Emi Tanaka
-</div>
-</a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1768136400000" data-listing-file-modified-sort="1776856823288" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="470">
-<div class="thumbnail"><a href="./news/posts/2025-12-17/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./news/posts/2025-12-17/index.html" class="no-external">A One-Stop Shop for Heritability Estimation</a>
-</h3>
-<div class="delink listing-description"><a href="./news/posts/2025-12-17/index.html" class="no-external">
+</div></a>
+</div>
+<div class="g-col-1" data-index="5" data-listing-date-sort="1768136400000" data-listing-file-modified-sort="1776856823000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="470">
+<a href="./news/posts/2025-12-17/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 190px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+A One-Stop Shop for Heritability Estimation
+</h5>
+<div class="card-text listing-description delink">
 In genetics, heritability quantifies how much variation in a trait is due to genetic differences vs.&nbsp;environmental effects. It provides an indication of how evolvable traits…
-</a></div>
 </div>
-<div class="metadata">
-<a href="./news/posts/2025-12-17/index.html" class="no-external">
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 Jan 12, 2026
 </div>
-<div class="listing-author">
-Fonti Kar and Emi Tanaka
-</div>
-</a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1767877200000" data-listing-file-modified-sort="1767942092000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="27">
-<div class="thumbnail"><a href="./news/posts/2026-01-09/index.html" class="no-external">
-
-<img loading="lazy" src="./news/posts/2026-01-09/symposium.jpeg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./news/posts/2026-01-09/index.html" class="no-external">2025 Highlights</a>
-</h3>
-<div class="delink listing-description"><a href="./news/posts/2026-01-09/index.html" class="no-external">
-Some highlights from 2025 in a slide:
-</a></div>
-</div>
-<div class="metadata">
-<a href="./news/posts/2026-01-09/index.html" class="no-external">
-<div class="listing-date">
-Jan 9, 2026
-</div>
-<div class="listing-author">
-Emi Tanaka
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-listing-date-sort="1764766800000" data-listing-file-modified-sort="1767942024000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="231">
-<div class="thumbnail"><a href="./news/posts/2025-12-04/index.html" class="no-external">
-
-<p class="card-img-top"><img src="news/posts/2025-12-04/WechatIMG83.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./news/posts/2025-12-04/index.html" class="no-external">The Australian Statistical Conference 2025</a>
-</h3>
-<div class="delink listing-description"><a href="./news/posts/2025-12-04/index.html" class="no-external">
-On 1 December 2025, the Australian Statistical Conference 2025, held in conjunction with the Statistical Education Symposium, officially opened in Perth, Western Australia.…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./news/posts/2025-12-04/index.html" class="no-external">
-<div class="listing-date">
-Dec 4, 2025
-</div>
-<div class="listing-author">
-Patrick Li
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="8" data-listing-date-sort="1764594000000" data-listing-file-modified-sort="1764809062000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="272">
-<div class="thumbnail"><a href="./news/posts/2025-12-02/index.html" class="no-external">
-
-<p class="card-img-top"><img src="news/posts/2025-12-02/DSC04803.JPG"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./news/posts/2025-12-02/index.html" class="no-external">Biometrics in the Bush Capital</a>
-</h3>
-<div class="delink listing-description"><a href="./news/posts/2025-12-02/index.html" class="no-external">
-It was an absolute pleasure to organise and get to welcome delegates to the <strong>Biometrics in the Bush Capital</strong> (BIBC2025), the Australasian Region Biometrics conference by the…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./news/posts/2025-12-02/index.html" class="no-external">
-<div class="listing-date">
-Dec 2, 2025
-</div>
-<div class="listing-author">
-Emi Tanaka
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="9" data-listing-date-sort="1758031200000" data-listing-file-modified-sort="1759270508000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="660">
-<div class="thumbnail"><a href="./news/posts/2025-09-17/index.html" class="no-external">
-
-<p class="card-img-top"><img src="news/posts/2025-09-17/canola-skylinejpg.jpg" alt="A lot of canola"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./news/posts/2025-09-17/index.html" class="no-external">Visiting Boorowa Agricultural Research Station of CSIRO</a>
-</h3>
-<div class="delink listing-description"><a href="./news/posts/2025-09-17/index.html" class="no-external">
-On September 9th, Patrick and I, two statisticians who usually only see the data but not ever seeing how they are born, finally had the chance to visit a real field…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./news/posts/2025-09-17/index.html" class="no-external">
-<div class="listing-date">
-Sep 17, 2025
-</div>
-<div class="listing-author">
-Yidi Deng
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="10" data-listing-date-sort="1756821600000" data-listing-file-modified-sort="1756888637000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="288">
-<div class="thumbnail"><a href="./news/posts/2025-09-03/index.html" class="no-external">
-
-<p class="card-img-top"><img src="news/posts/2025-09-03/utokyo-group1.jpg" alt="Photo credit: UTokyo Lab of Biometry and Bioinformatics"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./news/posts/2025-09-03/index.html" class="no-external">Visiting the Lab of Biometry and Bioinformatics at the University of Tokyo</a>
-</h3>
-<div class="delink listing-description"><a href="./news/posts/2025-09-03/index.html" class="no-external">
-I had the pleasure of visiting and presenting to the Lab of Biometry and Bioinformatics at the Department of Agricultural and Environmental Biology, Graduate School of…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./news/posts/2025-09-03/index.html" class="no-external">
-<div class="listing-date">
-Sep 3, 2025
-</div>
-<div class="listing-author">
-Emi Tanaka
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="11" data-listing-date-sort="1755957600000" data-listing-file-modified-sort="1756014888000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="124">
-<div class="thumbnail"><a href="./news/posts/2025-08-24/index.html" class="no-external">
-
-<p class="card-img-top"><img src="news/posts/2025-08-24/pic-by-zixiong.jpg" alt="Photo credit: Zixiong Zhuang"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./news/posts/2025-08-24/index.html" class="no-external">Glasshouse wheat experiment tour</a>
-</h3>
-<div class="delink listing-description"><a href="./news/posts/2025-08-24/index.html" class="no-external">
-On 15th August 2025, Zixiong Zhuang (a PhD student at Danielle Way’s lab) presented to us about his glasshouse pre-breeding wheat experiment and its analysis from the first…<sub></sub>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./news/posts/2025-08-24/index.html" class="no-external">
-<div class="listing-date">
-Aug 24, 2025
-</div>
-<div class="listing-author">
-Emi Tanaka
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="12" data-listing-date-sort="1752415200000" data-listing-file-modified-sort="1752484665000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="162">
-<div class="thumbnail"><a href="./news/posts/2025-07-14/index.html" class="no-external">
-
-<p class="card-img-top"><img src="news/posts/2025-07-14/IMG_8383.jpg" alt="Wheat cake! Keeping in the theme of grains research 🌾"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./news/posts/2025-07-14/index.html" class="no-external">ANU AAGI Training Sessions</a>
-</h3>
-<div class="delink listing-description"><a href="./news/posts/2025-07-14/index.html" class="no-external">
-Now that all three postdocs we hired have arrived, we sprinted with 4 training sessions in the past week. In our training sessions we covered contents like:
-</a></div>
-</div>
-<div class="metadata">
-<a href="./news/posts/2025-07-14/index.html" class="no-external">
-<div class="listing-date">
-Jul 14, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="13" data-listing-date-sort="1752156000000" data-listing-file-modified-sort="1752187132000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="129">
-<div class="thumbnail"><a href="./news/posts/2025-07-11/index.html" class="no-external">
-
-<p class="card-img-top"><img src="news/posts/2025-07-11/yidi.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./news/posts/2025-07-11/index.html" class="no-external">Welcome to Yidi!</a>
-</h3>
-<div class="delink listing-description"><a href="./news/posts/2025-07-11/index.html" class="no-external">
-We’re pleased to welcome the last of the 3 postdocs hired this year, Yidi Deng, to the team! Yidi will be working in the area of bioinformatics and integration of molecular…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./news/posts/2025-07-11/index.html" class="no-external">
-<div class="listing-date">
-Jul 11, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="14" data-listing-date-sort="1748959200000" data-listing-file-modified-sort="1748996051000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="92">
-<div class="thumbnail"><a href="./news/posts/2025-06-04/index.html" class="no-external">
-
-<p class="card-img-top"><img src="news/posts/2025-06-04/fonti-starts.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./news/posts/2025-06-04/index.html" class="no-external">Welcome to Fonti!</a>
-</h3>
-<div class="delink listing-description"><a href="./news/posts/2025-06-04/index.html" class="no-external">
-We’re excited to have Fonti Kar join the team, working in the area of experimental design and statistical modelling for comparative agricultural experiments.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./news/posts/2025-06-04/index.html" class="no-external">
-<div class="listing-date">
-Jun 4, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="15" data-listing-date-sort="1746367200000" data-listing-file-modified-sort="1746443300000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="69">
-<div class="thumbnail"><a href="./news/posts/2025-05-05/index.html" class="no-external">
-
-<p class="card-img-top"><img src="news/posts/2025-05-05/patrick-start-date.jpeg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./news/posts/2025-05-05/index.html" class="no-external">Welcome to Patrick!</a>
-</h3>
-<div class="delink listing-description"><a href="./news/posts/2025-05-05/index.html" class="no-external">
-We are excited to welcome Patrick Li, who will be working in the area of image analytics, machine learning and phenotyping methods.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./news/posts/2025-05-05/index.html" class="no-external">
-<div class="listing-date">
-May 5, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="16" data-listing-date-sort="1734526800000" data-listing-file-modified-sort="1746441000000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="114">
-<div class="thumbnail"><a href="./news/posts/2024-12-19/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./news/posts/2024-12-19/index.html" class="no-external">Job alert 📢 Seeking 3 postdocs</a>
-</h3>
-<div class="delink listing-description"><a href="./news/posts/2024-12-19/index.html" class="no-external">
-We are looking for 3 postdoctoral or research fellows with experience in statistics, data science, machine learning, bioinformatics, quantitative biology, or closely related…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./news/posts/2024-12-19/index.html" class="no-external">
-<div class="listing-date">
-Dec 19, 2024
-</div>
-</a>
-</div>
+</div></a>
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
+<section id="get-seminar-notices" class="level2">
+<h2 class="anchored" data-anchor-id="get-seminar-notices">Get seminar notices</h2>
 <iframe width="100%" height="900px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=XHJ941yrJEaa5fBTPkhkN8f_OhednjZDplTOe4g095JUMVdBV1JDRTVBMU9NNzZKNVY0STFaUkVWSSQlQCN0PWcu&amp;embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" msallowfullscreen="">
 </iframe>
 
