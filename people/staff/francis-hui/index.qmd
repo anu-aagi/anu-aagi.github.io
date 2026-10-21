@@ -3,6 +3,9 @@ name: Francis Hui
 email: francis.hui@anu.edu.au
 github: fhui28
 position: Associate Professor 
+categories:
+  - Statistical theory
+  - Computational statistics
 rpweb: https://researchportalplus.anu.edu.au/en/persons/francis-hui
 web: https://francishui.netlify.app/
 image: Francis_Hui.jpg

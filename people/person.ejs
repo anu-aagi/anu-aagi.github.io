@@ -1,5 +1,5 @@
 ```{=html}
-<div class="team-grid">
+<div class="team-grid list">
 <% for (const item of items) {
   const profile = item.web || item.rpweb;
   const initials = item.name.split(/\s+/).filter(w => /^[A-Z]/.test(w)).map(w => w[0]).filter((c, i, a) => i === 0 || i === a.length - 1).join("");
@@ -14,6 +14,14 @@
   <% if (profile) { %></a><% } else { %></div><% } %>
   <h3 class="team-name"><%= item.name %></h3>
   <p class="team-role"><%= item.position %></p>
+  <% if (item.categories) { %>
+  <div class="team-tags">
+  <% for (const category of item.categories) { %>
+    <% const family = /statist/i.test(category) ? "stats" : /biology/i.test(category) ? "bio" : "computing"; %>
+    <div class="listing-category team-tag team-tag-<%= family %>" onclick="window.quartoListingCategory('<%= utils.b64encode(category) %>'); return false;"><%= category %></div>
+  <% } %>
+  </div>
+  <% } %>
   <% if (item['supervisor-primary']) { %>
   <p class="team-note">Primary supervisor: <%= item['supervisor-primary'] %></p>
   <% } %>

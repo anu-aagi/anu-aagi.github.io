@@ -1,6 +1,9 @@
 ---
 name: Gusti F. Rais
 position: Research Software Engineer
+categories:
+  - Data management and data science
+  - Software engineering
 email: GustiFaturahman.Rais@anu.edu.au
 github: goosetea04
 image: gusti.jpg

@@ -1,12 +1,13 @@
 ---
 title: "Meet the team"
-subtitle: Statisticians, research software engineers and students working on analytics for the grains industry
+subtitle: A multidisciplinary team of statisticians, computer scientists, plant scientists, research software engineers and students working on analytics for the grains industry
 listing:
   - id: staff
     contents:
       - "staff/"
     template: person.ejs
-    sort: 
+    categories: true
+    sort:
       - position
       - name
   - id: alumni

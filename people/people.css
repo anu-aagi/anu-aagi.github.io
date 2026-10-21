@@ -49,6 +49,56 @@
   font-size: 0.95rem;
 }
 
+.team-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.15rem 0.75rem;
+  margin-top: 0.45rem;
+}
+
+.team-member .team-tags .team-tag {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.35rem;
+  font-size: 0.72rem;
+  line-height: 1.35;
+  padding: 0;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  background: none;
+  color: #5C6461;
+  cursor: pointer;
+}
+
+.team-member .team-tags .team-tag::before {
+  content: "";
+  flex: none;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: var(--tag-colour);
+  transform: translateY(-0.05rem);
+}
+
+.team-member .team-tags .team-tag:hover {
+  color: var(--tag-colour);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.team-tag-stats {
+  --tag-colour: #BE830E;
+}
+
+.team-tag-computing {
+  --tag-colour: #2F6B50;
+}
+
+.team-tag-bio {
+  --tag-colour: #6B9A2C;
+}
+
 .team-note {
   font-size: 0.85rem;
   color: #5C6461;

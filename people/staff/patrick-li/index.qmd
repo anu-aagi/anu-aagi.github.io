@@ -1,6 +1,9 @@
 ---
 name: Patrick Weihao Li
 position: Postdoctoral Fellow
+categories:
+  - Computer vision
+  - Statistical data science
 email: patrick.li@anu.edu.au
 rpweb: https://researchportalplus.anu.edu.au/en/persons/patrick-li
 web: https://patrickli.org/

@@ -1,6 +1,8 @@
 ---
 name: Maeve McGillycuddy
 position: Research Fellow
+categories:
+  - Computational statistics
 email: maeve.mcgillycuddy@anu.edu.au
 github: mmcgillycuddy
 image: Maeve-McGillycuddy.jpeg

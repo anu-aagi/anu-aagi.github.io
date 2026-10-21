@@ -1,5 +1,7 @@
 ---
 name: Jenny Jiazhe Lin
 position: Research Assistant
+categories:
+  - Statistical data science
 image: IMG_0053.JPG
 ---

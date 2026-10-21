@@ -2,6 +2,9 @@
 name: Emi Tanaka
 email: emi.tanaka@anu.edu.au
 position: ANU-AAGI lead
+categories:
+  - Statistical data science
+  - Bioinformatics and computational biology
 web: https://emitanaka.org/
 github: emitanaka
 image: emi-photo.png

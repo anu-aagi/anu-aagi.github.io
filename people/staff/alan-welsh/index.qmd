@@ -2,6 +2,9 @@
 name: Alan Welsh
 email: alan.welsh@anu.edu.au
 position: E.J. Hannan Professor
+categories:
+  - Statistical theory
+  - Applied statistics
 rpweb: https://researchportalplus.anu.edu.au/en/persons/alan-welsh
 image: Alan-Welsh.jpg
 ---
