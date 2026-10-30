@@ -9,8 +9,8 @@
 <link>https://anu-aagi.github.io/news/</link>
 <atom:link href="https://anu-aagi.github.io/news/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.8.24</generator>
-<lastBuildDate>Sun, 18 Oct 2026 13:00:00 GMT</lastBuildDate>
+<generator>quarto-1.9.12</generator>
+<lastBuildDate>Sun, 18 Oct 2026 15:00:00 GMT</lastBuildDate>
 <item>
   <title>Pizza, safety and a warm welcome to Andrew!</title>
   <link>https://anu-aagi.github.io/news/posts/2026-10-19/</link>
@@ -28,7 +28,7 @@
 
  ]]></description>
   <guid>https://anu-aagi.github.io/news/posts/2026-10-19/</guid>
-  <pubDate>Sun, 18 Oct 2026 13:00:00 GMT</pubDate>
+  <pubDate>Sun, 18 Oct 2026 15:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Welcome to Maeve!</title>
@@ -46,7 +46,7 @@
 
  ]]></description>
   <guid>https://anu-aagi.github.io/news/posts/2026-09-02/</guid>
-  <pubDate>Tue, 01 Sep 2026 14:00:00 GMT</pubDate>
+  <pubDate>Tue, 01 Sep 2026 15:00:00 GMT</pubDate>
 </item>
 <item>
   <title>ANU-Australian Plant Phenomics Network Facility Tour</title>
@@ -142,7 +142,7 @@
 
  ]]></description>
   <guid>https://anu-aagi.github.io/news/posts/2026-09-01/</guid>
-  <pubDate>Mon, 31 Aug 2026 14:00:00 GMT</pubDate>
+  <pubDate>Mon, 31 Aug 2026 15:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Welcome to Gusti!</title>
@@ -160,7 +160,7 @@
 
  ]]></description>
   <guid>https://anu-aagi.github.io/news/posts/2026-08-14/</guid>
-  <pubDate>Thu, 13 Aug 2026 14:00:00 GMT</pubDate>
+  <pubDate>Thu, 13 Aug 2026 15:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Job alert 📢 Seeking postdoc and research software engineer</title>
@@ -185,7 +185,7 @@
 
  ]]></description>
   <guid>https://anu-aagi.github.io/news/posts/2026-04-22/</guid>
-  <pubDate>Tue, 21 Apr 2026 14:00:00 GMT</pubDate>
+  <pubDate>Tue, 21 Apr 2026 15:00:00 GMT</pubDate>
 </item>
 <item>
   <title>A One-Stop Shop for Heritability Estimation</title>
@@ -360,7 +360,7 @@ Registered S3 method overwritten by 'car':
 
  ]]></description>
   <guid>https://anu-aagi.github.io/news/posts/2025-12-17/</guid>
-  <pubDate>Sun, 11 Jan 2026 13:00:00 GMT</pubDate>
+  <pubDate>Sun, 11 Jan 2026 15:00:00 GMT</pubDate>
 </item>
 <item>
   <title>2025 Highlights</title>
@@ -388,7 +388,7 @@ Registered S3 method overwritten by 'car':
 
  ]]></description>
   <guid>https://anu-aagi.github.io/news/posts/2026-01-09/</guid>
-  <pubDate>Thu, 08 Jan 2026 13:00:00 GMT</pubDate>
+  <pubDate>Thu, 08 Jan 2026 15:00:00 GMT</pubDate>
   <media:content url="https://anu-aagi.github.io/news/posts/2026-01-09/symposium.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -428,7 +428,7 @@ Registered S3 method overwritten by 'car':
 
  ]]></description>
   <guid>https://anu-aagi.github.io/news/posts/2025-12-04/</guid>
-  <pubDate>Wed, 03 Dec 2025 13:00:00 GMT</pubDate>
+  <pubDate>Wed, 03 Dec 2025 15:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Biometrics in the Bush Capital</title>
@@ -479,7 +479,7 @@ Registered S3 method overwritten by 'car':
 
  ]]></description>
   <guid>https://anu-aagi.github.io/news/posts/2025-12-02/</guid>
-  <pubDate>Mon, 01 Dec 2025 13:00:00 GMT</pubDate>
+  <pubDate>Mon, 01 Dec 2025 15:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Visiting Boorowa Agricultural Research Station of CSIRO</title>
@@ -644,7 +644,7 @@ Registered S3 method overwritten by 'car':
 
  ]]></description>
   <guid>https://anu-aagi.github.io/news/posts/2025-09-17/</guid>
-  <pubDate>Tue, 16 Sep 2025 14:00:00 GMT</pubDate>
+  <pubDate>Tue, 16 Sep 2025 15:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Visiting the Lab of Biometry and Bioinformatics at the University of Tokyo</title>
@@ -745,7 +745,7 @@ Registered S3 method overwritten by 'car':
 
  ]]></description>
   <guid>https://anu-aagi.github.io/news/posts/2025-09-03/</guid>
-  <pubDate>Tue, 02 Sep 2025 14:00:00 GMT</pubDate>
+  <pubDate>Tue, 02 Sep 2025 15:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Glasshouse wheat experiment tour</title>
@@ -808,7 +808,7 @@ Registered S3 method overwritten by 'car':
 
  ]]></description>
   <guid>https://anu-aagi.github.io/news/posts/2025-08-24/</guid>
-  <pubDate>Sat, 23 Aug 2025 14:00:00 GMT</pubDate>
+  <pubDate>Sat, 23 Aug 2025 15:00:00 GMT</pubDate>
 </item>
 <item>
   <title>ANU AAGI Training Sessions</title>
@@ -863,7 +863,7 @@ Registered S3 method overwritten by 'car':
 
  ]]></description>
   <guid>https://anu-aagi.github.io/news/posts/2025-07-14/</guid>
-  <pubDate>Sun, 13 Jul 2025 14:00:00 GMT</pubDate>
+  <pubDate>Sun, 13 Jul 2025 15:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Welcome to Yidi!</title>
@@ -889,7 +889,7 @@ Registered S3 method overwritten by 'car':
 
  ]]></description>
   <guid>https://anu-aagi.github.io/news/posts/2025-07-11/</guid>
-  <pubDate>Thu, 10 Jul 2025 14:00:00 GMT</pubDate>
+  <pubDate>Thu, 10 Jul 2025 15:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Welcome to Fonti!</title>
@@ -908,7 +908,7 @@ Registered S3 method overwritten by 'car':
 
  ]]></description>
   <guid>https://anu-aagi.github.io/news/posts/2025-06-04/</guid>
-  <pubDate>Tue, 03 Jun 2025 14:00:00 GMT</pubDate>
+  <pubDate>Tue, 03 Jun 2025 15:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Welcome to Patrick!</title>
@@ -927,7 +927,7 @@ Registered S3 method overwritten by 'car':
 
  ]]></description>
   <guid>https://anu-aagi.github.io/news/posts/2025-05-05/</guid>
-  <pubDate>Sun, 04 May 2025 14:00:00 GMT</pubDate>
+  <pubDate>Sun, 04 May 2025 15:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Job alert 📢 Seeking 3 postdocs</title>
@@ -952,7 +952,7 @@ Registered S3 method overwritten by 'car':
 
  ]]></description>
   <guid>https://anu-aagi.github.io/news/posts/2024-12-19/</guid>
-  <pubDate>Wed, 18 Dec 2024 13:00:00 GMT</pubDate>
+  <pubDate>Wed, 18 Dec 2024 15:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
