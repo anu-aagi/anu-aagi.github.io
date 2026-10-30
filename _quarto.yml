@@ -49,6 +49,10 @@ format:
   html:
     theme: [cosmo, brand, assets/theme.scss]
     title-block-banner: true
+    include-in-header:
+      text: |
+        <script data-goatcounter="https://emitanaka.goatcounter.com/count"
+                async src="//gc.zgo.at/count.js"></script>
 
 
 
