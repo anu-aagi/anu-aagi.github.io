@@ -51,7 +51,7 @@ format:
     title-block-banner: true
     include-in-header:
       text: |
-        <script data-goatcounter="https://emitanaka.goatcounter.com/count"
+        <script data-goatcounter="https://anu-aagi.goatcounter.com/count"
                 async src="//gc.zgo.at/count.js"></script>
 
 
